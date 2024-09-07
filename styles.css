@@ -16,9 +16,13 @@ body {
 }
 
 .header h1 {
-    font-family: 'Bison',sans-seriff;
+    font-family: 'Bison', sans-serif;
     font-size: 40px;
     margin: 0;
+    text-transform: uppercase; 
+    letter-spacing: 3px;       
+}
+
 }
 
 .register-btn {
