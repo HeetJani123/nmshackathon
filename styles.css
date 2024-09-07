@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     margin: 0;
     padding: 0;
@@ -7,21 +8,28 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    background-color: #111;
+    position: absolute; /* Position it absolutely within the .hero-section */
+    top: 0; /* Align it to the top of the .hero-section */
+    left: 0; /* Align it to the left of the .hero-section */
+    right: 0; /* Align it to the right of the .hero-section */
+    z-index: 2; /* Ensure it appears above the hero section background */
+    color: #fff; /* White text color for contrast */
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for better readability */
 }
 
 .header h1 {
-    font-family: Courier;
+    font-family: 'Bison', sans-serif;
     font-size: 40px;
-    margin: 0;
-         
-}
-
 }
 
 .register-btn {
@@ -37,13 +45,17 @@ body {
     background-color: #d00;
 }
 
+/* Hero Section */
 .hero-section {
     text-align: center;
     padding: 100px 20px;
-    background: url('background-image.jpg') no-repeat center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+                url('b.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
+    height: 500px;
+    
 }
 
 .hero-section::before {
@@ -53,12 +65,13 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    z-index: 1;
 }
 
 .hero-content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .hero-content img {
@@ -67,18 +80,22 @@ body {
 
 .hero-content h1 {
     font-family: 'Bison', sans-serif;
-    font-size: 120px; 
-    letter-spacing: 5px; 
+    font-size: 100px;
+    margin-top: 100px;
 }
 
 .hero-content p {
     font-size: 20px;
     margin-top: 10px;
+
 }
 
+/* About Section */
 .section {
     padding: 50px 20px;
     text-align: center;
+    margin-top: 100px;
+    margin-box: 100px
 }
 
 .about-section h2, .events-section h2 {
@@ -89,18 +106,34 @@ body {
 .about-section p {
     font-size: 18px;
     line-height: 1.5;
+    size: 70%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+/* Events Section */
 .events-section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+/* Center-aligning the Events Heading */
+.eventsheading {
+    font-size: 70px; /* Adjust the font size as needed */
+    margin-bottom: 70px!important; /* Space between heading and event cards */
+    color: #fff; /* Text color */
+    font-family: 'Bison', sans-serif; /* Font style for the heading */
+    
+    width: 100%; /* Ensure heading spans the full width of its container */
+    position: relative; /* To center it within the container */
+}
+
+
+
 .event-card {
     width: 250px;
     background-color: #222;
-    padding: 20px;
     border-radius: 10px;
     margin: 20px;
     position: relative;
@@ -110,13 +143,30 @@ body {
 
 .event-card img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
     opacity: 0.7;
 }
 
+.event-text {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+
 .event-card:hover {
     transform: scale(1.05);
+
+    transform: translateY(-10px); /* Lift effect on hover */
 }
+
 
 .more-info-btn {
     padding: 10px 20px;
@@ -126,19 +176,22 @@ body {
     display: inline-block;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    margin-bottom:150px;
 }
 
 .more-info-btn:hover {
     background-color: #d00;
 }
 
+/* Theme Section */
 .theme-section {
     text-align: center;
     padding: 50px;
-    background: url('theme-background.jpg') no-repeat center center;
+    background: url('a.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
+
 }
 
 .theme-section::before {
@@ -169,6 +222,7 @@ body {
     margin-top: 20px;
 }
 
+/* Venue Section */
 .venue, .sponsors {
     text-align: center;
     padding: 50px;
@@ -180,8 +234,49 @@ body {
     border: none;
 }
 
+/* Footer */
 .footer {
     text-align: center;
     padding: 20px;
     background-color: #111;
 }
+
+/* Date Section */
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #131314; /* Light background color to highlight the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 150px auto; /* Center the section horizontally */
+    max-width: 600px; /* Limit the maximum width */
+}
+
+.date-content {
+    padding: 20px;
+}
+
+.date h2 {
+    font-family: 'Bison', sans-serif; /* Use the same font as the header */
+    font-size: 36px; /* Larger font size for emphasis */
+    margin-bottom: 10px;
+    color: #ffffff; /* Darker text color for contrast */
+}
+
+.date h3 {
+    font-family: 'Poppins', sans-serif; /* Different font for subtitle */
+    font-size: 28px; /* Slightly smaller than the h2 */
+    color: #e74c3c; /* Accent color for highlighting the date */
+    margin-top: 40px;
+}
+.countdown-timer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
