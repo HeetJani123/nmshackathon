@@ -68,9 +68,9 @@ body {
 
 .hero-content h1 {
     font-family: 'Bison', sans-serif;
-    font-size: 70px;
+    font-size: 100px;
     text-transform: uppercase; 
-    letter-spacing: 3px; 
+    letter-spacing: 10px; 
 }
 
 .hero-content p {
