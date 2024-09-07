@@ -6,160 +6,7 @@
     <title>Magnificus Concursus</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bison&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #000;
-            color: #fff;
-            overflow-x: hidden;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            align-items: center;
-            background-color: #111;
-        }
-        .header h1 {
-            font-family: 'Bison', sans-serif;
-            font-size: 40px;
-            margin: 0;
-        }
-        .register-btn {
-            padding: 10px 20px;
-            background-color: #f00;
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-        .register-btn:hover {
-            background-color: #d00;
-        }
-        .hero-section {
-            text-align: center;
-            padding: 100px 20px;
-            background: url('background-image.jpg') no-repeat center center;
-            background-size: cover;
-            color: #fff;
-            position: relative;
-        }
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        .hero-content {
-            position: relative;
-            z-index: 1;
-        }
-        .hero-content img {
-            width: 200px;
-        }
-        .hero-content h1 {
-            font-family: 'Bison', sans-serif;
-            font-size: 70px;
-        }
-        .hero-content p {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-        .section {
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .about-section h2, .events-section h2 {
-            font-size: 30px;
-            margin-bottom: 20px;
-        }
-        .about-section p {
-            font-size: 18px;
-            line-height: 1.5;
-        }
-        .events-section {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .event-card {
-            width: 250px;
-            background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px;
-            position: relative;
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-        .event-card img {
-            width: 100%;
-            border-radius: 10px;
-            opacity: 0.7;
-        }
-        .event-card:hover {
-            transform: scale(1.05);
-        }
-        .more-info-btn {
-            padding: 10px 20px;
-            background-color: #f00;
-            color: #fff;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-        .more-info-btn:hover {
-            background-color: #d00;
-        }
-        .theme-section {
-            text-align: center;
-            padding: 50px;
-            background: url('theme-background.jpg') no-repeat center center;
-            background-size: cover;
-            color: #fff;
-            position: relative;
-        }
-        .theme-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.6);
-        }
-        .theme-content {
-            position: relative;
-            z-index: 1;
-        }
-        .theme-content h2 {
-            font-size: 40px;
-        }
-        .event-date {
-            font-size: 30px;
-            margin-top: 20px;
-        }
-        .venue, .sponsors {
-            text-align: center;
-            padding: 50px;
-        }
-        .map {
-            width: 100%;
-            height: 300px;
-            border: none;
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #111;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -169,7 +16,7 @@
         <a href="https://forms.google.com" class="register-btn">Register Now</a>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Magnificus Concursus Section -->
     <section class="hero-section">
         <div class="hero-content">
             <img src="logo.png" alt="Hackathon Logo">
@@ -220,7 +67,8 @@
     <!-- Theme Section -->
     <section class="theme-section">
         <div class="theme-content">
-            <h2>Innovation Tomorrow's Future</h2>
+            <h2>Theme</h2>
+            <h3>Innovation Tomorrow's Future</h3>
             <p class="event-date">19th November</p>
         </div>
     </section>
