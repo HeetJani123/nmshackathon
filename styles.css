@@ -37,7 +37,7 @@ body {
 .hero-section {
     text-align: center;
     padding: 100px 20px;
-    background: url('background-image.jpg') no-repeat center center;
+    background: url('background-image.png') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
