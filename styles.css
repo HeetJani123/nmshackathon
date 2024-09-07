@@ -16,7 +16,7 @@ body {
 }
 
 .header h1 {
-    font-family: 'Bison', sans-serif;
+    font-family: Bison;
     font-size: 40px;
     margin: 0;
 }
