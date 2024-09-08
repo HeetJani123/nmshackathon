@@ -122,13 +122,13 @@ h1, h2, h3 {
 
 /* Center-aligning the Events Heading */
 .eventsheading {
-    font-size: 70px; /* Adjust the font size as needed */
-    margin-bottom: 70px!important; /* Space between heading and event cards */
-    color: #fff; /* Text color */
-    font-family: 'Bison', sans-serif; /* Font style for the heading */
+    font-size: 80px; 
+    margin-bottom: 70px!important; 
+    color: #fff; 
+    font-family: 'Bison', sans-serif; 
     
-    width: 100%; /* Ensure heading spans the full width of its container */
-    position: relative; /* To center it within the container */
+    width: 100%; 
+    position: relative; 
 }
 
 
