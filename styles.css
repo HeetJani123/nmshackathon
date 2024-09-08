@@ -75,14 +75,14 @@ h1, h2, h3 {
 }
 
 .hero-content img {
-    width: 100px;
+    width: 150px;
     
 }
 
 .hero-content h1 {
     font-family: 'Bison', sans-serif;
     font-size: 100px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .hero-content p {
