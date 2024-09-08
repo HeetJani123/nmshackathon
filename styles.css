@@ -76,12 +76,13 @@ h1, h2, h3 {
 
 .hero-content img {
     width: 150px;
+    margin: 0; 
 }
 
 .hero-content h1 {
     font-family: 'Bison', sans-serif;
     font-size: 100px;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .hero-content p {
