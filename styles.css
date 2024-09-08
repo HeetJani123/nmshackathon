@@ -81,7 +81,7 @@ h1, h2, h3 {
 .hero-content h1 {
     font-family: 'Bison', sans-serif;
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .hero-content p {
