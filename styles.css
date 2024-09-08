@@ -36,6 +36,7 @@ h1, h2, h3 {
     padding: 10px 20px;
     background-color: #f00;
     color: #fff;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
