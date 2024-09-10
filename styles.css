@@ -281,4 +281,61 @@ h1, h2, h3 {
     margin-top: 10px;
     color: #ffffff;
 }
+.faq-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.faq-header {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ccff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.faq-item {
+    border-bottom: 1px solid #333;
+    padding: 15px 0;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.question {
+    font-size: 1.2em;
+    color: #00ccff;
+    cursor: pointer;
+    position: relative;
+}
+.question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    font-size: 1.5em;
+    color: #00ccff;
+}
+.answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ccc;
+}
+.faq-item.active .answer {
+    display: block;
+}
+.faq-item.active .question::after {
+    content: '-';
+}
+
+/* Hover and animation */
+.question:hover {
+    color: #66ffff;
+}
+.faq-item.active .question:hover::after {
+    color: #ff6666;
+}
 
