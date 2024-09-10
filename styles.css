@@ -166,7 +166,7 @@ h1, h2, h3 {
 .event-card:hover {
     transform: scale(1.05);
 
-    transform: translateY(-10px); /* Lift effect on hover */
+    transform: translateY(-10px); 
 }
 
 
@@ -251,11 +251,11 @@ h1, h2, h3 {
     flex-direction: column;
     text-align: center;
     padding: 50px 20px;
-    background-color: #131314; /* Light background color to highlight the section */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    margin: 150px auto; /* Center the section horizontally */
-    max-width: 600px; /* Limit the maximum width */
+    background-color: #131314; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 150px auto; 
+    max-width: 600px; 
 }
 
 .date-content {
@@ -263,16 +263,16 @@ h1, h2, h3 {
 }
 
 .date h2 {
-    font-family: 'Bison', sans-serif; /* Use the same font as the header */
-    font-size: 36px; /* Larger font size for emphasis */
+    font-family: 'Bison', sans-serif; 
+    font-size: 36px; 
     margin-bottom: 10px;
-    color: #ffffff; /* Darker text color for contrast */
+    color: #ffffff; 
 }
 
 .date h3 {
-    font-family: 'Poppins', sans-serif; /* Different font for subtitle */
-    font-size: 28px; /* Slightly smaller than the h2 */
-    color: #e74c3c; /* Accent color for highlighting the date */
+    font-family: 'Poppins', sans-serif; 
+    font-size: 28px; 
+    color: #e74c3c; 
     margin-top: 40px;
 }
 .countdown-timer {
@@ -289,7 +289,8 @@ h1, h2, h3 {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    margin:100px;
+    margin-top:200px;
+    margin-bottom:200px;
 }
 .faq-header {
     font-size: 2.5em;
@@ -332,7 +333,7 @@ h1, h2, h3 {
     content: '-';
 }
 
-/* Hover and animation */
+
 .question:hover {
     color: #66ffff;
 }
