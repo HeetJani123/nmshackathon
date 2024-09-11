@@ -283,7 +283,7 @@ h1, h2, h3 {
 }
 
 .events-section:hover .event-card{
-    filter: grayscale(1) blur(10px);
+    filter: blur(3px);
     transition: 0.5s;
 }
 
