@@ -1,142 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Learning Hackathon</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            background-color: #2C3E50;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 50px;
-            color: #fff;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        h2 {
-            font-size: 30px;
-            color: #f39c12;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .section {
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, 0);
-            width: 80%;
-            background-color: #ecf0f1;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-        .section p {
-            font-size: 18px;
-            margin-bottom: 20px;
-            line-height: 1.6;
-        }
-        .evaluation-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        .evaluation-table th, .evaluation-table td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-            font-size: 18px;
-        }
-        .evaluation-table th {
-            background-color: #2980b9;
-            color: #fff;
-        }
-        .faq {
-            background-color: #1abc9c;
-            padding: 20px;
-            border-radius: 10px;
-            color: #fff;
-        }
-        button {
-            font-size: 20px;
-            padding: 10px 20px;
-            margin: 10px;
-            background-color: #3498db;
-            border: none;
-            color: #fff;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #2980b9;
-        }
-    </style>
-</head>
-<body>
+<section id="hackathon" style="padding: 60px 0; background-color: #121212; color: #ffffff;">
+  <div class="container">
+    <h2 style="text-align: center; font-family: 'Bison', sans-serif; font-size: 3em; color: #fff;">
+      Hackathon
+    </h2>
 
-<div class="container">
-    <h1>Machine Learning Hackathon</h1>
-    <h2>Grade 16-18</h2>
-
-    <div class="section">
-        <p><strong>Overview:</strong> Teams will create a model that recognizes specific objects from a set of images. Participants will gather images, train models, and test them on a hidden object in a final image. The goal is to design a model that accurately identifies the hidden object based on selected images.</p>
-        <p><strong>Team Composition:</strong> Teams of 4: developer, data handler, researcher, presenter.</p>
-        <p><strong>Event Timing:</strong> 9:30 AM - Introduction & Briefing, 9:45 AM - Image Training, 10:30 AM - Testing.</p>
-        <p><strong>Rules:</strong> Use original work, cite resources, proper documentation is required. Submit models and supporting docs via the shared format.</p>
-        
-        <table class="evaluation-table">
-            <tr>
-                <th>Criteria</th>
-                <th>Weightage</th>
-            </tr>
-            <tr>
-                <td>Model Accuracy</td>
-                <td>40%</td>
-            </tr>
-            <tr>
-                <td>Image Selection Quality</td>
-                <td>20%</td>
-            </tr>
-            <tr>
-                <td>Model Efficiency</td>
-                <td>15%</td>
-            </tr>
-            <tr>
-                <td>Presentation & Explanation</td>
-                <td>15%</td>
-            </tr>
-            <tr>
-                <td>Proper Documentation</td>
-                <td>10%</td>
-            </tr>
-        </table>
-
-        <p><strong>Sample Challenge:</strong> Train a model to detect a hidden object in an image using provided training images. The team with the most accurate model wins.</p>
-
-        <div class="faq">
-            <h3>FAQs</h3>
-            <p><strong>Q1:</strong> What tools can we use?<br>
-            <strong>A1:</strong> A platform for image uploading and model training will be provided at the event.</p>
-            <p><strong>Q2:</strong> How will we submit our projects?<br>
-            <strong>A2:</strong> Submission instructions will be shared during the event. Follow the guidelines for valid submissions.</p>
-        </div>
+    <div style="text-align: center; margin-bottom: 40px;">
+      <button class="btn btn-primary" onclick="document.getElementById('track-1').scrollIntoView({behavior: 'smooth'})" 
+              style="padding: 10px 20px; background-color: #00ADB5; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">
+        Track 1 (Grades 11-12)
+      </button>
+      <button class="btn btn-primary" onclick="document.getElementById('track-2').scrollIntoView({behavior: 'smooth'})" 
+              style="padding: 10px 20px; background-color: #00ADB5; border: none; border-radius: 5px; cursor: pointer;">
+        Track 2 (Grades 9-10)
+      </button>
     </div>
 
-    <button>Track 1 (Grade 11-12)</button>
-    <button>Track 2 (Grade 16-18)</button>
+    <!-- Track 1 Section -->
+    <div id="track-1" style="background-color: #1A1A1A; padding: 40px; margin-bottom: 20px; border-radius: 10px;">
+      <h3 style="font-family: 'Bison', sans-serif; font-size: 2.5em; color: #FFD369;">
+        Track 1: Programming Hackathon (Grades 11-12)
+      </h3>
+      <p>
+        <strong>Introduction to Hackathon:</strong> This hackathon tests participants’ ability to solve real-world challenges. Competitors will showcase their knowledge in their respective programming languages, applying them to problems that mirror industry demands. The focus is on creativity and practical application, pushing participants to build innovative solutions.
+      </p>
+      <p>
+        <strong>Objective:</strong> Encourage innovation, problem-solving, and logical thinking. Help participants develop real-world technical skills.
+      </p>
 
-</div>
+      <h4>General Guidelines</h4>
+      <ul>
+        <li>Eligibility: Open to high school students (Grade 11 and 12) with prior knowledge of programming.</li>
+        <li>Submission: Submit projects via GitHub in .zip format with documentation.</li>
+        <li>Time: Ensure on-time submissions; late or incorrect format submissions will not be accepted.</li>
+      </ul>
 
-</body>
-</html>
+      <h4>Evaluation Criteria</h4>
+      <ul>
+        <li>Code functionality and correctness.</li>
+        <li>Complexity and innovation in solving challenges.</li>
+        <li>Clean and readable code.</li>
+      </ul>
+
+      <h4>Sample Challenge</h4>
+      <p>
+        <strong>Text Justification Problem:</strong> Given an array of strings, format the text such that each line has exactly maxWidth characters and is fully justified. Distribute extra spaces evenly, and left-align the last line.
+      </p>
+
+      <h4>Awards</h4>
+      <p>Prizes and Recognition for top performers.</p>
+
+      <!-- Track 1 FAQs -->
+      <div id="track-1-faqs" style="margin-top: 30px;">
+        <h4>FAQs - Track 1</h4>
+        <ul>
+          <li><strong>Q: What type of projects can be submitted?</strong>  
+            A: Projects related to real-world problems, preferably solving issues in areas like healthcare, education, or automation.
+          </li>
+          <li><strong>Q: Can teams collaborate on the same project?</strong>  
+            A: Yes, teams of up to 4 people can collaborate and submit a single project.
+          </li>
+          <li><strong>Q: Are external libraries allowed?</strong>  
+            A: Yes, external libraries are allowed, but most questions should be solvable without them.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Track 2 Section -->
+    <div id="track-2" style="background-color: #1A1A1A; padding: 40px; margin-bottom: 20px; border-radius: 10px;">
+      <h3 style="font-family: 'Bison', sans-serif; font-size: 2.5em; color: #FFD369;">
+        Track 2: Arduino-based Circuit Hackathon (Grades 9-10)
+      </h3>
+      <p>
+        <strong>Introduction to Subevent:</strong> This track assesses participants' skills in designing and coding Arduino-based solutions using Tinkercad. It focuses on practical problem-solving and technical proficiency in circuit design and simulation.
+      </p>
+      <p>
+        <strong>Objective:</strong> Participants will be provided with tasks to design and simulate circuits using Tinkercad and submit functional solutions for evaluation.
+      </p>
+
+      <h4>General Guidelines</h4>
+      <ul>
+        <li>Eligibility: Open to high school students (Grade 9 and 10) with beginner to intermediate C++ Arduino skills.</li>
+        <li>Submission: Submit the task via Tinkercad with a link provided during the event.</li>
+        <li>All original work; AI tools prohibited.</li>
+      </ul>
+
+      <h4>Evaluation Criteria</h4>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;colour:#ffffff;">
+        <tr>
+          <th style="border: 1px solid #fff; padding: 10px;">Criteria</th>
+          <th style="border: 1px solid #fff; padding: 10px;">Weightage</th>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #fff; padding: 10px;">Flow of circuit design on Tinkercad</td>
+          <td style="border: 1px solid #fff; padding: 10px;">30%</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #fff; padding: 10px;">Accuracy of the code</td>
+          <td style="border: 1px solid #fff; padding: 10px;">40%</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #fff; padding: 10px;">Use of components</td>
+          <td style="border: 1px solid #fff; padding: 10px;">10%</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #fff; padding: 10px;">Overall functionality</td>
+          <td style="border: 1px solid #fff; padding: 10px;">20%</td>
+        </tr>
+      </table>
+
+      <h4>Sample Challenge</h4>
+      <p>
+        <strong>Task 1:</strong> Design an Arduino-controlled robotic system that reacts to objects detected by a distance sensor. The system should have three different behaviors based on the distance.
+      </p>
+
+      <h4>Awards</h4>
+      <p>Prizes and Recognition for top performers.</p>
+
+      <!-- Track 2 FAQs -->
+      <div id="track-2-faqs" style="margin-top: 30px;">
+        <h4>FAQs - Track 2</h4>
+        <ul>
+          <li><strong>Q: Will Tinkercad simulations be evaluated based on hardware availability?</strong>  
+            A: No, Tinkercad offers all required components virtually, and simulation will be evaluated based on design, code, and functionality.
+          </li>
+          <li><strong>Q: Can I use other simulation tools?</strong>  
+            A: Only Tinkercad submissions will be accepted for this competition.
+          </li>
+          <li><strong>Q: Is prior Arduino knowledge required?</strong>  
+            A: Yes, participants should have a basic understanding of C++ and Arduino systems.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
