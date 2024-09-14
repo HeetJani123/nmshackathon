@@ -10,7 +10,8 @@ function EspText() {
           left: '50vw',
           transform: 'translateX(-50%)',
           color: 'white',
-          fontSize: '5vw'
+          fontSize: '5vw',
+          
         }}
       >
         Esports
@@ -19,7 +20,7 @@ function EspText() {
       <div
         style={{
           position: 'absolute',
-          top: '20vh',
+          top: '40vh',
           left: '50vw',
           transform: 'translateX(-50%)',
           color: 'white',
@@ -28,14 +29,9 @@ function EspText() {
           textAlign: 'left'
         }}
       >
-        <h2>1. Introduction</h2>
-        <p>
-          <strong>Overview:</strong> To provide an engaging and competitive environment for students to showcase their gaming skills and foster teamwork and sportsmanship through an organized esports tournament. This will be achieved through 1V1 Kick Off matches on FC24 PS5.
-          <br />
-          <strong>Objectives:</strong> Encourage innovation, foster teamwork, and help participants develop real-world technical skills.
-        </p>
+      
 
-        <h2>2. Esports Structure</h2>
+        <h2>1. Esports Structure</h2>
         <p>
           <strong>Tracks:</strong> FC24 Kick Off Mode 1V1
           <br />
@@ -46,7 +42,7 @@ function EspText() {
 
         <h2>3. General Guidelines</h2>
         <p>
-          <strong>Eligibility:</strong> Open to high school students aged 15 and above, intermediate to expert skill levels.
+          <strong>Eligibility:</strong> Open to high school in grades 9-12
           <br />
           <strong>Rules & Regulations:</strong> Decisions made by the in-game referee cannot be challenged. Players are not allowed more than two pauses per half. If you damage any equipment, you alone are liable to pay damages. Rematches will not happen unless in an emergency situation.
         </p>
@@ -66,20 +62,16 @@ function EspText() {
           <strong>Team Collaboration:</strong> No collaboration is allowed between opponents. Match fixing will result in immediate disqualification.
         </p>
 
-        <h2>7. Awards and Recognition</h2>
-        <p>
-          <strong>Prizes:</strong> First Prize: TBD, Second Prize: TBD, Third Prize: TBD
-        </p>
+        
 
         <h2>8. Mentorship and Support</h2>
         <p>
           <strong>Mentor Availability:</strong> Mentors will be available during the event through dedicated help desks.
           <br />
-          <strong>Office Hours:</strong> Pre-scheduled office hours for troubleshooting or guidance.
+          
         </p>
 
-        <h2>9. Important Dates and Deadlines</h2>
-        <p><strong>Key Dates:</strong> Registration closes one week before.</p>
+        
 
         <h2>10. Code of Conduct</h2>
         <p>
