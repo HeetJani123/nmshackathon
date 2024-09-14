@@ -4,8 +4,9 @@ function EspText() {
   const hS = {
     fontSize: '3.5vw',
     color: 'cyan', 
-    marginBottom: '5rem',
+    marginBottom: '3rem',
     textAlign: "Center",
+    marginTop: '5rem'
     
   };
   return (
@@ -111,15 +112,29 @@ function EspText() {
 
         <h2 style={hS}>11. FAQs</h2>
         <p>
-          <strong>Which mode are we playing on and can I use any team?</strong><br /> The tournament will be played through the kick off mode and not ultimate team. Yes, you can use any team including nations except for Soccer Aid FC.
+          <ul>
+            <li><strong>Which mode are we playing on and can I use any team?</strong><br /> The tournament will be played through the kick off mode and not ultimate team. Yes, you can use any team including nations except for Soccer Aid FC.
+            <br />
+            <br />
+            </li>
+            <li><strong>Is esports an individual or group event?</strong> <br />The e-sports competition will be an individual only event. However, multiple teams can register from one school.
+              <br />
+          <br /></li>
+            <li><strong>Will devices be provided?</strong> <br />No, aside from consoles for e-sports, there will be no devices provided from our side.
           <br />
-          <strong>Is esports an individual or group event?</strong> The e-sports competition will be an individual only event. However, multiple teams can register from one school.
+          <br /></li>
+            <li><strong>Will restarting be allowed?</strong> <br />Restarting an already started match will not be allowed under any circumstances.
           <br />
-          <strong>Will devices be provided?</strong> No, aside from consoles for e-sports, there will be no devices provided from our side.
-          <br />
-          <strong>Will restarting be allowed?</strong> Restarting an already started match will not be allowed under any circumstances.
-          <br />
-          <strong>Are we allowed setup time?</strong> Team selection and squad setup time is 1 minute and it will be timed.
+          <br /></li>
+            <li><strong>Are we allowed setup time?</strong> <br />Team selection and squad setup time is 1 minute and it will be timed.</li>
+            
+            
+          </ul>
+          
+          
+          
+          
+          
         </p>
       </div>
     </>
