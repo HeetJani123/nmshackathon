@@ -4,6 +4,7 @@ import Machine from "./pages/Machine";
 import Hack from "./pages/Hack";
 import Esp from "./pages/Esp";
 import Cod from "./pages/Cod";
+import Credit from './pages/credits'
 import "./styles.css"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/hack" element={<Hack />} />
           <Route path="/esp" element={<Esp />} />
           <Route path="/cod" element={<Cod />} />
+          <Route path="/credits" element={<Credit />} />
         </Routes>
       </BrowserRouter>
     </div>
