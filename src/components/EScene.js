@@ -14,9 +14,9 @@ function Scene() {
   })
 
   return (
-    <ScrollControls pages={3}>
+    <ScrollControls pages={4.5}>
       <Scroll>
-        <Particles />
+        <Particles pages={4.5} size={7497}/>
       </Scroll>
       <Scroll html>
         <EspText />

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const ParticleEffect = () => {
+const ParticleEffect = ({text = '', cl=['#8d99ae', '#2b2d42', '#edf2f4']}) => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -68,15 +68,15 @@ const ParticleEffect = () => {
         };
         window.addEventListener('mousemove', (e) => {
           this.mouse.x = e.x;
-          this.mouse.y = e.y;
+          this.mouse.y = e.y + 100;
         });
       }
 
       wrapText(text) {
         const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-        gradient.addColorStop(0.3, '#8d99ae');
-        gradient.addColorStop(0.5, '#2b2d42');
-        gradient.addColorStop(0.7, '#edf2f4');
+        gradient.addColorStop(0.3, cl[0]);
+        gradient.addColorStop(0.5, cl[1]);
+        gradient.addColorStop(0.7, cl[2]);
         this.context.fillStyle = gradient;
         this.context.font = this.fontSize + 'px Helvetica';
         this.context.textAlign = 'center';
@@ -132,7 +132,7 @@ const ParticleEffect = () => {
     }
 
     const effect = new Effect(ctx, canvas.width, canvas.height);
-    effect.wrapText('Magnificus Concursus');
+    effect.wrapText(text);
     effect.render();
 
     function animate() {
