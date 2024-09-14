@@ -41,7 +41,7 @@ function MachineText() {
           
         }}
       >
-        Grades 9-12
+        Grades 9-10
       </h2>
 
       <div
