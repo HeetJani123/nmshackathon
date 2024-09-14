@@ -158,7 +158,19 @@ function HackText() {
         </p>
 
         <h2 style={hS}>11. FAQs</h2>
-        <p>Answers to common questions, including submission process, judging criteria, and rules for the Hackathon.</p>
+        <p> ●	Will the Hackathon have different rounds 
+                Ans.No,But the one round will be separated into different parts which are level-1, level-2, level-3 each level having questions worth more points
+            <br />
+            ●	How do we submit the answers
+                Ans.Submit projects via GitHub in .zip format or any other verified alternatives with documentation
+            <br />
+            ●	What does correction team mainly look for in your answers(judging criteria)?
+                Ans. The correction committee mainly looks at the functionality of the code. Beyond just functionality, the team values clean, readable code that demonstrates both technical proficiency and thoughtful problem-solving.
+            <br />
+            ●	Will the use of external libraries be allowed and is it necessary ?
+                Ans. The use of libraries is allowed, and it is entirely up to the participant whether he or she would want to use external libraries but most of the questions should be solvable without external libraries
+            <br />
+        </p>
       </div>
 
       {/* Track 2 Section */}
@@ -238,7 +250,7 @@ function HackText() {
         </p>
 
         <h2 style={hD}>10. FAQs</h2>
-        <p>Answers to common questions about the event structure, submission process, and rules for the Arduino subevent.
+        <p>  
         <br />
         <br />
         </p>
