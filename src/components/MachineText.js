@@ -12,6 +12,7 @@ function MachineText() {
           color: 'white',
           fontSize: '5vw',
           
+          
         }}
       >
         Machine Learning 
@@ -20,7 +21,7 @@ function MachineText() {
       <div
         style={{
           position: 'absolute',
-          top: '20vh',
+          top: '40vh',
           left: '50vw',
           transform: 'translateX(-50%)',
           color: 'white',
@@ -29,10 +30,10 @@ function MachineText() {
           textAlign: 'left'
         }}
       >
-        <h2>1. Introduction</h2>
+        <h2>1. Overview</h2>
         <p>
-          <strong>Overview:</strong> This hackathon focuses on machine learning, where participants will work together to create a model capable of recognizing specific objects from a set of images. Participants will gather relevant images, train their models, and then test them on a hidden object within a final image. The goal is to design a model that accurately identifies the hidden object based on the best-chosen images. This event will foster creativity, teamwork, and problem-solving, making machine learning approachable and fun for beginners. 
-          <br />Teams will be introduced to simple machine learning techniques and challenged to apply them in a hands-on way. By the end of the event, participants will have gained practical experience in image-based model training and collaborative coding, enhancing both their technical and teamwork skills.
+          This hackathon focuses on machine learning, where participants will work together to create a model capable of recognizing specific objects from a set of images. Participants will gather relevant images, train their models, and then test them on a hidden object within a final image. The goal is to design a model that accurately identifies the hidden object based on the best-chosen images. This event will foster creativity, teamwork, and problem-solving, making machine learning approachable and fun for beginners. 
+          
         </p>
 
         <h2>2. Event Structure</h2>
@@ -49,7 +50,7 @@ function MachineText() {
 
         <h2>3. General Guidelines</h2>
         <p>
-          <strong>Eligibility:</strong> Open to high school students aged 16–18 with beginner to intermediate machine learning knowledge.
+          <strong>Eligibility:</strong> Open to high school students in grades 9-10
           <br />
           <strong>Rules & Regulations:</strong> Teams must use original work and are allowed to use external resources, provided they cite them properly. Participants will submit their model, trained on selected images, along with documentation. Proper documentation of the model training process is required for evaluation.
         </p>
