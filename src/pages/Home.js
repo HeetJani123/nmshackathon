@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ParticleEffect from "../components/Title";
 
 const Home = () => {
   const [timeLeft, setTimeLeft] = useState("");
@@ -38,7 +39,9 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-content">
           <img src="/2024.png" alt="Hackathon Logo" />
-          <h1>Magnificus Concursus</h1>
+          <div>
+        <ParticleEffect text={"Magnificus Concurus"} />
+      </div>
           <p>Largest Interschool Hackathon</p>
         </div>
       </section>
