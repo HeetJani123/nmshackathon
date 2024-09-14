@@ -15,7 +15,7 @@ function CreditText() {
           textAlign: "center",
           width: '100vw'
         }}>
-        3D Visual Effects
+        VFX Specialist
       </h1>
       <h1
         style={{
@@ -24,7 +24,7 @@ function CreditText() {
           width: '100vw',
           left: '50vw',
           transform: 'translateX(-50%)',
-          color: 'cyan',
+          color: 'orange',
           textAlign: 'center',
           fontSize: "80px"
         }}>
@@ -33,7 +33,7 @@ function CreditText() {
       <h1
         style={{
           position: 'absolute',
-          top: '140vh',
+          top: '160vh',
           left: '50vw',
           fontSize: "150px",
           fontFamily: "Helvetica",
@@ -42,7 +42,7 @@ function CreditText() {
           textAlign: "center",
           width: '100vw'
         }}>
-        Content Development
+        Design Architect
       </h1>
       <h1
         style={{
@@ -69,16 +69,16 @@ function CreditText() {
           textAlign: "center",
           width: '100vw'
         }}>
-        Layout Design
+        Content Lead
       </h1>
       <h1
         style={{
           position: 'absolute',
-          top: '310vh',
+          top: '300vh',
           width: '100vw',
           left: '50vw',
           transform: 'translateX(-50%)',
-          color: 'orange',
+          color: '#99e2b4',
           textAlign: 'center',
           fontSize: "80px"
         }}>
