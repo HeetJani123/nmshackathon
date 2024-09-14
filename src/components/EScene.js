@@ -14,7 +14,7 @@ function Scene() {
   })
 
   return (
-    <ScrollControls pages={4}>
+    <ScrollControls pages={5}>
       <Scroll>
         <Particles />
       </Scroll>
