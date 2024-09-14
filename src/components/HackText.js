@@ -158,17 +158,17 @@ function HackText() {
         </p>
 
         <h2 style={hS}>11. FAQs</h2>
-        <p> ●	Will the Hackathon have different rounds 
-                Ans.No,But the one round will be separated into different parts which are level-1, level-2, level-3 each level having questions worth more points
+        <p> ●	Will the Hackathon have different rounds <br />
+                Ans.No,But the one round will be separated into different parts which are level-1, level-2, level-3 each level having questions worth more points<br />
             <br />
-            ●	How do we submit the answers
-                Ans.Submit projects via GitHub in .zip format or any other verified alternatives with documentation
+            ●	How do we submit the answers<br />
+                Ans.Submit projects via GitHub in .zip format or any other verified alternatives with documentation<br />
             <br />
-            ●	What does correction team mainly look for in your answers(judging criteria)?
-                Ans. The correction committee mainly looks at the functionality of the code. Beyond just functionality, the team values clean, readable code that demonstrates both technical proficiency and thoughtful problem-solving.
+            ●	What does correction team mainly look for in your answers(judging criteria)?<br />
+                Ans. The correction committee mainly looks at the functionality of the code. Beyond just functionality, the team values clean, readable code that demonstrates both technical proficiency and thoughtful problem-solving.<br />
             <br />
-            ●	Will the use of external libraries be allowed and is it necessary ?
-                Ans. The use of libraries is allowed, and it is entirely up to the participant whether he or she would want to use external libraries but most of the questions should be solvable without external libraries
+            ●	Will the use of external libraries be allowed and is it necessary ?<br />
+                Ans. The use of libraries is allowed, and it is entirely up to the participant whether he or she would want to use external libraries but most of the questions should be solvable without external libraries<br />
             <br />
         </p>
       </div>
