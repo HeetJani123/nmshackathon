@@ -31,7 +31,6 @@ const Home = () => {
     <div>
       {/* Header */}
       <header className="header">
-        <a href="/credits">Credits</a>
         <a href="https://forms.google.com" className="register-btn" style={{marginLeft: '80vw'}}>Register Now</a>
       </header>
 
@@ -187,6 +186,7 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer">
+        <a href="/credits" style={{textDecoration: 'none', color: 'white'}}>Credits</a>
         <p>&copy; 2024 Magnificus Concursus. All rights reserved.</p>
       </footer>
     </div>
