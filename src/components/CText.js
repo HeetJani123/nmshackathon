@@ -6,421 +6,117 @@ function CText() {
       <h1
         style={{
           position: 'absolute',
-          top: '5vh',
+          top: '10vh',
           left: '50vw',
           transform: 'translateX(-50%)',
           color: 'white',
-          fontSize: '4vw',
+          fontSize: '5vw',
         }}
       >
-        CODALO
+        Codalo
       </h1>
-      <p
-        style={{
-          position: 'absolute',
-          top: '15vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Codalo is an inter-school robotics competition designed to challenge students in the fields of robotics and
-        artificial intelligence (AI). Hosted at GEMS New Millennium School, the event encourages young innovators to
-        showcase their skills through STEM-based projects. Participants will engage in two thrilling rounds: TITAN and
-        ROBOT.IO, demonstrating creativity, technical proficiency, and problem-solving skills.
-      </p>
 
-      <h2
+      <div
         style={{
           position: 'absolute',
-          top: '30vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Team Composition
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '35vh',
+          top: '40vh',
           left: '50vw',
           transform: 'translateX(-50%)',
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'center',
+          textAlign: 'left',
         }}
-      >
-        Team Size: Up to 6 members <br />
-        Role: Programming and building the robot
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '45vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Rounds
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '50vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        <strong>Round 1: TITAN</strong> <br />
-        Description: Teams present their robot design to a panel of judges. <br />
-        Presentation Details: 5 minutes for presentation, 2 minutes for Q&A <br />
-        Criteria: Graded according to the provided rubrics <br />
-        Bonus Points: 5 points if the robot addresses any Sustainable Development Goals (SDGs)
-      </p>
-      <p
-        style={{
-          position: 'absolute',
-          top: '65vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        <strong>Round 2: ROBOT.IO</strong> <br />
-        Description: A robotic battle where teams compete with their robots. <br />
-        Format: 2 teams per battle, with 4 members controlling the robot. <br />
-        Scoring: Points awarded for hits on opposing robots. <br />
-        Equipment: Robots must be built using LEGO Spike or EV3 and controlled externally by a remote control. <br />
-        Size Limitations: Length: 30 cm, Width: 16 cm, Height: 15 cm
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '80vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Eligibility
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '85vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Participants: Students currently enrolled in a school. <br />
-        Team Composition: Teams may consist of students from different grades but must be from the same school.
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '95vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Registration
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '100vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Process: Complete the online registration form by the deadline. <br />
-        Documentation: Submit consent forms and project descriptions with registration. [Link to be provided]
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '110vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Project Guidelines
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '115vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Themes: Adhere to STEM-based themes for each round. <br />
-        Originality: Projects must be original and developed specifically for Codalo. <br />
-        Explanation: Provide a brief explanation of the project, including objectives and methodologies, in the
-        presentation.
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '125vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Equipment and Materials
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '130vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Allowed: LEGO EV3 or Spike. <br />
-        Modifications: Any modifications must be preapproved by the organizers.
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '140vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Code of Conduct
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '145vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Respect: Show respect and sportsmanship towards other teams, judges, and organizers. <br />
-        Harassment: Any form of harassment or unsportsmanlike conduct will result in disqualification.
-      </p>
-
-      <h2
-        style={{
-          position: 'absolute',
-          top: '155vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-          textAlign: 'center',
-          width: '60vw',
-        }}
-      >
-        Judging Criteria
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '175vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          
-        }}
-      >
-        <strong>Creativity: 25%</strong> <br />
         
-      </p>
-      <p
-        style={{
-          position: 'absolute',
-          top: '180vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          
-        }}
       >
-        <strong>Uniqueness : 25 %</strong> <br />
-        
-      </p>
+        <h2>1. ABOUT CODALO</h2>
+        <p>
+          Codalo is an inter-school robotics competition held at GEMS New Millennium School, Al Khail, Dubai, UAE. 
+          This event provides a platform for young students to engage with robotics and artificial intelligence (AI), 
+          fostering collaboration, innovation, and global connectivity. The competition invites tech enthusiasts 
+          and aspiring inventors from various age groups to unleash their creativity through STEM-based projects. 
+          Participants can showcase their ideas across three exciting rounds to inspire problem-solving and teamwork. 
+          These two rounds are <strong>TITAN</strong> and <strong>ROBOT.IO</strong>.
+        </p>
 
-      <p
-        style={{
-          position: 'absolute',
-          top: '200vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          
-        }}
-      >
-        <strong>Team Work:25%</strong> <br />
-        
-      </p>
+        <h2>2. TITAN: ROBOT DESIGN</h2>
+        <p>
+          The first round of Codalo will involve all the teams presenting their Robot Design to a panel of judges. 
+          The team should have a presentation about their robot and its features. Each team will be allotted 5 minutes 
+          for presentation and 2 minutes for Q&A from the judges. The teams will be graded ONLY according to the rubrics. 
+          Bonus points (5 points) will be awarded if the robot helps solve any of the SDG goals.
+        </p>
 
-      <p
-        style={{
-          position: 'absolute',
-          top: '220vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          
-        }}
-      >
-        <strong>Question and Answer : 25 %</strong> <br />
-        
-      </p>
+        <h2>3. ROBOT.IO: ROBOT BATTLE</h2>
+        <p>
+          This is the robotic battle in which two teams, each with 4 members, will control the robot. 
+          The battle involves the robot competing against another team’s robot. Each hit on the opponent's robot scores a point. 
+          Each battle table will have a judge/timekeeper with a criteria board to mark the points/score. 
+          The robot should be made using Lego Spike or EV3 and must be controlled externally by a remote control (digital or standard). 
+          The robot’s size can be a maximum of:
+        </p>
+        <ul>
+          <li>Length: 30 cm</li>
+          <li>Width: 16 cm</li>
+          <li>Height: 15 cm</li>
+        </ul>
 
-      <h2
-        style={{
-          position: 'absolute',
-          top: '240vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Disqualification
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '245vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Teams may be disqualified for rule violations, cheating, or unsportsmanlike conduct. Disqualified teams will not
-        be eligible for awards or recognition.
-      </p>
+        <h2>4. Schedule</h2>
+        <p>
+          <strong>9:30 AM - 10:30 AM:</strong> Round 1 - TITAN (Robot Design)<br />
+          <strong>10:30 AM - 10:45 AM:</strong> Prep Time for Round 2<br />
+          <strong>10:45 AM - 11:45 AM:</strong> Round 2 - ROBOT.IO (Robot Battle)
+        </p>
 
-      <h2
-        style={{
-          position: 'absolute',
-          top: '255vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        Intellectual Property
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '260vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        Rights: All intellectual property rights remain with the participants. Organizers reserve the right to use images
-        and videos of projects for promotional purposes.
-      </p>
+        <h2>5. Team Composition</h2>
+        <p>
+          Each team can have up to 6 members involved in programming and building the robot. 
+          Teams must designate a team leader who will be the primary point of contact.
+        </p>
 
-      <h2
-        style={{
-          position: 'absolute',
-          top: '270vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3vw',
-        }}
-      >
-        FAQs
-      </h2>
-      <p
-        style={{
-          position: 'absolute',
-          top: '275vh',
-          left: '50vw',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '1.5vw',
-          width: '60vw',
-          textAlign: 'center',
-        }}
-      >
-        <strong>How many rounds are there in the competition?</strong> <br />
-        There are two rounds: TITAN (robot design presentation) and ROBOT.IO (robot battle). <br />
-        <strong>What equipment can we use for the robot?</strong> <br />
-        Robots must be built using LEGO EV3 or Spike. <br />
-        <strong>How is the competition judged?</strong> <br />
-        Judging is based on creativity, uniqueness, teamwork, and performance in Q&A. <br />
-        <strong>What is the code of conduct?</strong> <br />
-        Participants must maintain respect and professionalism throughout the competition.
-      </p>
+        <h2>6. Registration</h2>
+        <p>
+          Teams must complete the online registration form by the specified deadline. 
+          All required documentation, including consent forms and project descriptions, must be submitted with the registration.
+          { /* Insert registration link here */ }
+        </p>
+
+        <h2>7. Project Guidelines</h2>
+        <p>
+          Projects must adhere to the STEM-based themes provided for each round. 
+          All projects must be original and developed specifically for the CODALO competition. 
+          Teams must provide a brief explanation of their project, including objectives and methodologies, in their presentation.
+        </p>
+
+        <h2>8. Equipment and Materials</h2>
+        <p>
+          Teams must use only Lego EV3 or Spike to build the robot. 
+          Any modifications to the provided equipment must be preapproved by the organizers.
+        </p>
+
+        <h2>9. Code of Conduct</h2>
+        <p>
+          All participants must exhibit respect and sportsmanship toward other teams, judges, and organizers. 
+          Any form of harassment or unsportsmanlike conduct will result in disqualification.
+        </p>
+
+        <h2>10. Judging Criteria</h2>
+        <p>
+          Projects will be judged based on the rubric criteria provided. Judges' decisions are final and cannot be appealed.
+        </p>
+
+        <h2>11. Disqualification</h2>
+        <p>
+          Teams may be disqualified for violating competition rules, cheating, or unsportsmanlike conduct. 
+          Disqualified teams will not be eligible for awards or recognition.
+        </p>
+
+        <h2>12. Intellectual Property</h2>
+        <p>
+          All intellectual property rights for the projects remain with the participants. 
+          The organizers reserve the right to use images and videos of projects for promotional purposes.
+        </p>
+      </div>
     </>
   );
 }
