@@ -90,7 +90,7 @@ function HackText() {
       <div
         style={{
           position: 'absolute',
-          top: '150vh',
+          top: '200vh',
           left: '50vw',
           transform: 'translateX(-50%)',
           width: '60vw',
@@ -137,8 +137,7 @@ function HackText() {
         <h3>12. Mentorship and Support</h3>
         <p>Mentors/volunteers will be available during the event.</p>
 
-        <h3>13. Important Dates and Deadlines</h3>
-        {/* Add important dates */}
+       
 
         <h3>14. Code of Conduct</h3>
         <p>Maintain professionalism and adhere to anti-plagiarism policies.</p>
