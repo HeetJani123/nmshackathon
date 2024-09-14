@@ -11,6 +11,8 @@ function MachineText() {
           transform: 'translateX(-50%)',
           color: 'white',
           fontSize: '5vw',
+          width: '60vw',
+          textAlign: 'center'
           
           
         }}
