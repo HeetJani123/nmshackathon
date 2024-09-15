@@ -174,7 +174,10 @@ function HackText() {
 
         <h2 style={hS}>8. Code of Conduct</h2>
         <p>
-          Maintain professionalism, respect participants and volunteers, and adhere to anti-plagiarism policies.
+        - Event Etiquette: Maintain professionalism, respect fellow participants and volunteers, and adhere to anti-plagiarism policies.<br />
+        - Misconduct Penalties: Code submission method, Time violation, anti-plagiarism policies -  participants violating rules will face disqualification.<br />
+        -All your answers should be submitted on time. Buffer time will be given for submission, but any answers submitted after the given time will not be considered.<br />
+        -Strictly no use of Generative AI. If its usage is found in the code, you will be disqualified.<br />
           
         </p>
 
@@ -187,7 +190,14 @@ function HackText() {
           <strong>Q:</strong> How do we submit the answers?
           <br />
           <strong>A:</strong> Submit projects via GitHub in .zip format or any other verified alternatives with documentation.
-          
+          <br /><br />
+          <strong>Q:</strong>	What does correction team mainly look for in your answers(judging criteria)?
+          <br />
+          <strong>A:</strong> The correction committee mainly looks at the functionality of the code. Beyond just functionality, the team values clean, readable code that demonstrates both technical proficiency and thoughtful problem-solving.
+          <br /><br />
+          <strong>Q:</strong> Will the use of external libraries be allowed and is it necessary ?
+          <br />
+          <strong>A:</strong> The use of libraries is allowed, and it is entirely up to the participant whether he or she would want to use external libraries but most of the questions should be solvable without external libraries
         </p>
       </div>
 
