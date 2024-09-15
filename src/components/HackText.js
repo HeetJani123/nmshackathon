@@ -97,7 +97,7 @@ function HackText() {
           Grades 11-12
 
         </p>
-        <h2 style={hS}>1. Introduction to Hackathon</h2>
+        <h2 style={hS}>1. Overview</h2>
         <p>
           <strong>Overview:</strong> The Hackathon tests participants’ ability to solve real-world challenges. Competitors will showcase their knowledge in their respective programming languages, applying them to problems that mirror industry demands. The focus is on creativity and practical application, pushing to build innovative solutions. Participants will enhance their problem-solving abilities.
           
@@ -213,27 +213,81 @@ function HackText() {
 
         <h2 style={hD}>2. Event Structure</h2>
         <p>
-          Work Period: Participants will have a set amount of time to work on the tasks using Tinkercad for circuit design and C++ code for Arduino.
+          <strong>FORMAT : Individual participation</strong><br/>
+          Single round hackathon (2hr) difficulty Level for each questions will be progressive.
+          <ul>
+            <li><strong>Design:</strong> Participants must use Tinkercad to design and simulate their circuits. Must use all the components specified in each task.</li><br/>
+            <li><strong>Code:</strong> Write and test Arduino code to implement the functionalities described in the tasks.</li><br/>
+            <li><strong>Document (Optional):</strong>Prepare documentation that explains the design and code.</li><br/>
+            <li><strong>NOTE:</strong> All tasks must be submitted through Tinkercad and must be functional at the time of evaluation</li><br/>
+          </ul>
           
         </p>
 
         <h2 style={hD}>3. General Guidelines</h2>
         <p>
-          Eligibility: Open to high school students (Grade 9 and 10), beginner to intermediate C++ Arduino skills.
+          <strong>Eligibility:</strong> Open to high school students (Grade 9 and 10), beginner to intermediate C++ Arduino skills.
           <br />
-          Submission: Submit tasks via the provided forms link.
+          <strong>Rules & Regulations:</strong>
+          <ul>
+            <li>Participants must use original work and are allowed to use external resources, provided they cite them properly.
+            </li>
+            <li>No use of any AI applications
+            </li>
+            <li>The format for submission will be shared during the event, and participants must follow the instructions carefully to ensure their submission is valid.</li>
+            <li>Code must be in C++, no block coding is allowed</li>
+          </ul>
+          <strong>Submission:</strong> Submit tasks via the provided forms link.
           
         </p>
 
         <h2 style={hD}>4. Evaluation Criteria</h2>
-        <p>
-          Flow of the circuit design, accuracy of the code, fulfillment of component usage, and overall project functionality.
-          
-        </p>
+        <table border="1" cellpadding="10" cellspacing="0" >
+        <thead>
+            <tr>
+                <th>Criteria</th>
+                <th>Weightage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The flow of the circuit design on Tinkercad</td>
+                <td>30%</td>
+            </tr>
+            <tr>
+                <td>Accuracy of the code concerning a task</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Fulfilment of using all the components in a task</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>The overall functionality of the Project</td>
+                <td>20%</td>
+            </tr>
+        </tbody>
+        </table>
 
         <h2 style={hD}>5. Sample Challenges</h2>
         <p>
-          Task 1: Design an Arduino-controlled robotic system that moves forward and responds to objects detected by a distance sensor with various behaviors.
+          Task : Design an Arduino-controlled robotic system that moves forward and responds to objects detected by a distance sensor with the following behaviours:<br/>
+          <ul>
+            <li>Full Speed Movement: The robot should move forward at full speed when no object is detected within 100 cm.</li><br/>
+            <li>Reduced Speed: If an object is detected within a distance of 60-100 cm, the robot should reduce its speed.</li><br/>
+            <li>Stop and Alert: If an object is detected at a distance of less than 60 cm, the robot should come to a complete stop and activate a buzzer to alert the condition.</li><br/>
+            
+          </ul>
+          Essential components:
+          <ul>
+            <li><strong>Arduino Board:</strong> Arduino Uno</li>
+            <li><strong>Distance Sensor:</strong> Ultrasonic sensor (HC-SR04)</li>
+            <li><strong>Motor Driver:</strong> Motor driver (L293D IC recommended)</li>
+            <li><strong>DC Motors:</strong> DC motor with compatible motor driver in Tinkercad</li>
+            <li><strong>Motor Wheels:</strong> Attached to the DC motors (simulate as part of the motor setup)</li>
+            <li><strong>Buzzer:</strong> Buzzer (for sound alert)</li>
+          </ul>
+
           
         </p>
 
@@ -243,15 +297,15 @@ function HackText() {
           
         </p>
 
-        <h2 style={hD}>7. Support</h2>
-        <p>
-          Volunteers will be available during the event.
-          
-        </p>
+        
 
-        <h2 style={hD}>8. Code of Conduct</h2>
+        <h2 style={hD}>7. Code of Conduct</h2>
         <p>
-          Maintain professionalism and adhere to anti-plagiarism policies.
+          <ul>
+            <li><strong>Event Etiquette:</strong> Maintain professionalism, respect teammates, and adhere to anti-plagiarism policies.
+            </li>
+            <li><strong>Misconduct Penalties:</strong> Code submission method, Time violation and etc Teams violating rules will face disqualification</li>
+          </ul>
           
         </p>
         <h2 style={hD}>8. FAQs</h2>
