@@ -90,12 +90,6 @@ function CText() {
           <li>Height: 15 cm</li>
         </ul>
 
-        <h2 style={hS}>4. Schedule</h2>
-        <p>
-          <strong>9:30 AM - 10:30 AM:</strong> Round 1 - TITAN (Robot Design)<br />
-          <strong>10:30 AM - 10:45 AM:</strong> Prep Time for Round 2<br />
-          <strong>10:45 AM - 11:45 AM:</strong> Round 2 - ROBOT.IO (Robot Battle)
-        </p>
 
         <h2 style={hS}>5. Team Composition</h2>
         <p>
@@ -130,18 +124,32 @@ function CText() {
         </p>
 
         <h2 style={hS}>10. Judging Criteria</h2>
-        <p>
-          <ul>
-            <li><strong>Creativity:</strong>25%</li>
-            <li><strong>Uniqueness:</strong>25%</li>
-            <li><strong>Team Work:</strong>25%</li>
-            <li><strong>Question and Answer:</strong>25%</li>
-            
-            
+        <table border="1" cellpadding="10" cellspacing="0" align='center'>
+          <tr>
+              <th>Criteria</th>
+              <th>Weightage</th>
+          </tr>
+          <tr>
+              <td>The flow of the circuit design on Tinkercad</td>
+              <td>30%</td>
+          </tr>
+          <tr>
+              <td>Accuracy of the code concerning a task</td>
+              <td>40%</td>
+          </tr>
+          <tr>
+              <td>Fulfilment of using all the components in a task</td>
+              <td>10%</td>
+          </tr>
+          <tr>
+              <td>The overall functionality of the Project</td>
+              <td>20%</td>
+          </tr>
+        </table>
+        <p>Projects will be judged based on the rubric criteria provided. Judges' decisions are final and cannot be appealed.</p>
 
-          </ul>
-          Projects will be judged based on the rubric criteria provided. Judges' decisions are final and cannot be appealed.
-        </p>
+          
+        
 
         <h2 style={hS}>11. Disqualification</h2>
         <p>
