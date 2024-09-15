@@ -120,17 +120,37 @@ function HackText() {
         </p>
 
         <h2 style={hS}>4. Evaluation Criteria</h2>
-        <p>
-          <ul>
-            <li><strong>Problem understanding:</strong> 10%</li>
-            <li><strong>Solution Design:</strong> 20%</li>
-            <li><strong>Coding skills:</strong> 20%</li>
-            <li><strong>Integration:</strong> 10%</li>
-            <li><strong>Innovation:</strong> 20%</li>
-            <li><strong>Adaptability:</strong> 20%</li>
-          </ul>
-          
-        </p>
+        <table border="1" cellpadding="10" cellspacing="0" align='center'>
+            <tr>
+                <th>Criteria</th>
+                <th>Weightage</th>
+            </tr>
+            <tr>
+                <td>Problem Understanding</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Solution Design</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Coding Skills</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Integration</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Innovation</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Adaptability</td>
+                <td>20%</td>
+            </tr>
+        </table>
+
 
         <h2 style={hS}>5. Sample Question</h2>
         <p>
@@ -150,19 +170,15 @@ function HackText() {
           
         </p>
 
-        <h2 style={hS}>8. Support</h2>
-        <p>
-          Volunteers will be available during the event through help desks and designated rooms.
-          
-        </p>
 
-        <h2 style={hS}>9. Code of Conduct</h2>
+
+        <h2 style={hS}>8. Code of Conduct</h2>
         <p>
           Maintain professionalism, respect participants and volunteers, and adhere to anti-plagiarism policies.
           
         </p>
 
-        <h2 style={hS}>10. FAQs</h2>
+        <h2 style={hS}>9. FAQs</h2>
         <p>
           <strong>Q:</strong> Will the Hackathon have different rounds?
           <br />
@@ -242,7 +258,7 @@ function HackText() {
         </p>
 
         <h2 style={hD}>4. Evaluation Criteria</h2>
-        <table border="1" cellpadding="10" cellspacing="0" align="center" >
+        <table border="1" cellpadding="10" cellspacing="0" >
         <thead>
             <tr>
                 <th>Criteria</th>
