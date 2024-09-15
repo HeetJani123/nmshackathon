@@ -13,7 +13,7 @@ function Scene() {
     camera.rotation.y = THREE.MathUtils.lerp(camera.rotation.y, mouse.x * -Math.PI * 0.25, 0.01)  })
 
   return (
-    <ScrollControls pages={9}>
+    <ScrollControls pages={10}>
       <Scroll>
         <Particles pages={9} size={14994}/>
       </Scroll>
