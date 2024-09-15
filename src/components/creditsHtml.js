@@ -55,7 +55,7 @@ function CreditText() {
           textAlign: 'center',
           fontSize: "80px"
         }}>
-        Trisha Agarwal
+        Trisha Agrawal
       </h1>
       <h1
         style={{
