@@ -104,7 +104,7 @@ const Home = () => {
         </div>
         </a>
 
-        <a href="https://drive.google.com" className="more-info-btn">Click here for more information</a>
+        <a className="more-info-btn">Click on event cards for more information</a>
       </section>
 
       {/* Theme Section */}
