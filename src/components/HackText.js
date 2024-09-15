@@ -268,7 +268,7 @@ function HackText() {
         </p>
 
         <h2 style={hD}>4. Evaluation Criteria</h2>
-        <table border="1" cellpadding="10" cellspacing="0" >
+        <table border="1" cellpadding="10" cellspacing="0" align='center'>
         <thead>
             <tr>
                 <th>Criteria</th>
