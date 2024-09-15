@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const ParticleEffect = ({text = '', cl=['#8d99ae', '#2b2d42', '#edf2f4']}) => {
+const ParticleEffect = ({text = '', cl=['#8d99ae', '#edf2f4', '#ffffff']}) => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
