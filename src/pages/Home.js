@@ -39,7 +39,7 @@ const Home = () => {
         <div className="hero-content">
           <img src="/2024.png" alt="Hackathon Logo" />
           <div>
-        <ParticleEffect text={"Magnificus Concurus"} />
+        <ParticleEffect text={"Magnificus Concursus"} />
       </div>
         </div>
       </section>
