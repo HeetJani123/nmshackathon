@@ -139,29 +139,7 @@ const Home = () => {
 
       
 
-      <div class="faq-container">
-        <div class="faq-header">FAQs</div>
-
-        <div class="faq-item">
-            <div class="question">What time is the school expected to reach the venue?</div>
-            <div class="answer">All teams are expected to report to school by 8:00 AM for registrations which will be followed by the opening ceremony.</div>
-        </div>
-
-        <div class="faq-item">
-            <div class="question">Can a student participate in more than one event?</div>
-            <div class="answer">No, a student can apply for exactly one event in the entire hackathon. So choose wisely before filling in the form.</div>
-        </div>
-
-        <div class="faq-item">
-            <div class="question">Is the hackathon an individual or group event?</div>
-            <div class="answer">The logical hackathon and e-sports competitions will be an individual-only event. However, the Codalo event is for a team of 6 members.</div>
-        </div>
-
-        <div class="faq-item">
-            <div class="question">Will devices be provided?</div>
-            <div class="answer">No, aside from consoles for e-sports, there will be no devices provided from our side.</div>
-        </div>
-    </div>
+      
 
  
 
