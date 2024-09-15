@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ParticleEffect from "../components/Title";
 
+
+
 const Home = () => {
   const [timeLeft, setTimeLeft] = useState("");
+  const [activeFAQ, setActiveFAQ] = useState(null); // State for managing active FAQ item
 
   useEffect(() => {
     const eventDate = new Date("November 19, 2024 00:00:00").getTime();
@@ -27,16 +30,10 @@ const Home = () => {
     return () => clearInterval(countdown);
   }, []);
 
-  useEffect(() => {
-    const faqItems = document.querySelectorAll(".faq-item");
-    faqItems.forEach((item) => {
-      const question = item.querySelector(".question");
-      question.addEventListener("click", () => {
-        item.classList.toggle("active");
-      });
-    });
-  }, []);
-
+  // FAQ Toggle Handler
+  const toggleFAQ = (index) => {
+    setActiveFAQ(activeFAQ === index ? null : index); // Toggle FAQ item
+  };
   return (
     <div>
       {/* Header */}
@@ -104,7 +101,7 @@ const Home = () => {
         </div>
         </a>
 
-        <a className="more-info-btn">Click on event cards for more information</a>
+        <a href="https://drive.google.com" className="more-info-btn">Click here for more information</a>
       </section>
 
       {/* Theme Section */}
@@ -124,33 +121,41 @@ const Home = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <div className="faq-container">
+            {/* FAQ Section */}
+            <div className="faq-container">
         <div className="faq-header">FAQs</div>
 
-        <div className="faq-item">
-          <div className="question">What time is the school expected to reach the venue?</div>
+        <div className={`faq-item ${activeFAQ === 0 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(0)}>
+            What time is the school expected to reach the venue?
+          </div>
           <div className="answer">
             All teams are expected to report to school by 8:00 AM for registrations, which will be followed by the opening ceremony.
           </div>
         </div>
 
-        <div className="faq-item">
-          <div className="question">Can a student participate in more than one event?</div>
+        <div className={`faq-item ${activeFAQ === 1 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(1)}>
+            Can a student participate in more than one event?
+          </div>
           <div className="answer">
             No, a student can apply for exactly one event in the entire hackathon. So choose wisely before filling in the form.
           </div>
         </div>
 
-        <div className="faq-item">
-          <div className="question">Is the hackathon an individual or group event?</div>
+        <div className={`faq-item ${activeFAQ === 2 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(2)}>
+            Is the hackathon an individual or group event?
+          </div>
           <div className="answer">
             The logical hackathon and e-sports competitions will be an individual-only event. However, the Codalo event is for a team of 6 members.
           </div>
         </div>
 
-        <div className="faq-item">
-          <div className="question">Will devices be provided?</div>
+        <div className={`faq-item ${activeFAQ === 3 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(3)}>
+            Will devices be provided?
+          </div>
           <div className="answer">
             No, aside from consoles for e-sports, there will be no devices provided from our side.
           </div>
