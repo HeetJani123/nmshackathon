@@ -27,6 +27,16 @@ const Home = () => {
     return () => clearInterval(countdown);
   }, []);
 
+  useEffect(() => {
+    const faqItems = document.querySelectorAll(".faq-item");
+    faqItems.forEach((item) => {
+      const question = item.querySelector(".question");
+      question.addEventListener("click", () => {
+        item.classList.toggle("active");
+      });
+    });
+  }, []);
+
   return (
     <div>
       {/* Header */}
@@ -39,8 +49,8 @@ const Home = () => {
         <div className="hero-content">
           <img src="/2024.png" alt="Hackathon Logo" />
           <div>
-        <ParticleEffect text={"Magnificus Concursus"} />
-      </div>
+            <ParticleEffect text={"Magnificus Concursus"} />
+          </div>
         </div>
       </section>
 
@@ -113,35 +123,39 @@ const Home = () => {
           <div className="countdown-timer">{timeLeft}</div>
         </div>
       </section>
-      <div class="faq-container">
-        <div class="faq-header">FAQs</div>
 
-        <div class="faq-item">
-            <div class="question">What time is the school expected to reach the venue?</div>
-            <div class="answer">All teams are expected to report to school by 8:00 AM for registrations which will be followed by the opening ceremony.</div>
+      {/* FAQ Section */}
+      <div className="faq-container">
+        <div className="faq-header">FAQs</div>
+
+        <div className="faq-item">
+          <div className="question">What time is the school expected to reach the venue?</div>
+          <div className="answer">
+            All teams are expected to report to school by 8:00 AM for registrations, which will be followed by the opening ceremony.
+          </div>
         </div>
 
-        <div class="faq-item">
-            <div class="question">Can a student participate in more than one event?</div>
-            <div class="answer">No, a student can apply for exactly one event in the entire hackathon. So choose wisely before filling in the form.</div>
+        <div className="faq-item">
+          <div className="question">Can a student participate in more than one event?</div>
+          <div className="answer">
+            No, a student can apply for exactly one event in the entire hackathon. So choose wisely before filling in the form.
+          </div>
         </div>
 
-        <div class="faq-item">
-            <div class="question">Is the hackathon an individual or group event?</div>
-            <div class="answer">The logical hackathon and e-sports competitions will be an individual-only event. However, the Codalo event is for a team of 6 members.</div>
+        <div className="faq-item">
+          <div className="question">Is the hackathon an individual or group event?</div>
+          <div className="answer">
+            The logical hackathon and e-sports competitions will be an individual-only event. However, the Codalo event is for a team of 6 members.
+          </div>
         </div>
 
-        <div class="faq-item">
-            <div class="question">Will devices be provided?</div>
-            <div class="answer">No, aside from consoles for e-sports, there will be no devices provided from our side.</div>
+        <div className="faq-item">
+          <div className="question">Will devices be provided?</div>
+          <div className="answer">
+            No, aside from consoles for e-sports, there will be no devices provided from our side.
+          </div>
         </div>
-    </div>
-
-      
-
-      
-
- 
+      </div>
 
       {/* Venue Section */}
       <section className="venue">
