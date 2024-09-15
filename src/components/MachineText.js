@@ -77,22 +77,49 @@ function MachineText() {
         <p>
           <strong>Eligibility:</strong> Open to high school students in grades 9-10
           <br />
-          <strong>Rules & Regulations:</strong> Teams must use original work and are allowed to use external resources, provided they cite them properly. Participants will submit their model, trained on selected images, along with documentation. Proper documentation of the model training process is required for evaluation.
+          <strong>Rules & Regulations:</strong> 
+          <ul>
+            <li>Teams must use original work and are allowed to use external resources, provided they cite them properly.</li>
+            <li>Participants will be required to submit their model, trained on selected images, along with any supporting documentation.</li>
+            <li>The format for submission will be shared during the event, and participants must follow the instructions carefully to ensure their submission is valid.</li>
+            <li>Proper documentation of the model training process, including image selection and results, is required for evaluation.</li>
+          </ul>
+
         </p>
 
         <h2 style={hS}>4. Evaluation Criteria</h2>
-        <p>
-          <strong>Criteria</strong>:
-          <br />Model Accuracy: 40%
-          <br />Quality of Image Selection: 20%
-          <br />Efficiency of Model: 15%
-          <br />Presentation & Explanation: 15%
-          <br />Proper Documentation: 10%
-        </p>
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+          <tr>
+            <th>Criteria</th>
+            <th>Percentage</th>
+          </tr>
+          <tr>
+            <td>Model Accuracy</td>
+            <td>40%</td>
+          </tr>
+          <tr>
+            <td>Quality of Image Selection</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Efficiency of Model</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>Presentation & Explanation</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>Proper Documentation</td>
+            <td>10%</td>
+          </tr>
+        </table>
+
+          
 
         <h2 style={hS}>5. Sample Challenges</h2>
         <p>
-          <strong>Challenge:</strong> Train a model to detect a hidden object from an image. Participants will gather relevant images, train their model, and the model that most accurately identifies the hidden object wins.
+          <strong>Challenge:</strong> Teams will be tasked with training a model to detect a hidden object from an image. Participants will first gather relevant images that represent the object and use these to train their model. Afterward, a new image will be displayed, and the model that most accurately identifies the hidden object wins.
         </p>
 
         <h2 style={hS}>6. Learning Resources</h2>
@@ -101,28 +128,23 @@ function MachineText() {
           <br />A simple tool or platform will be provided to assist participants in training and submitting their models.
         </p>
 
-        <h2 style={hS}> 7. Approach to the Hackathon</h2>
-        <p>
-          <strong>Time Management:</strong> 
-          <br />First 15 minutes: Initial setup briefing 
-          <br />Next 45 minutes: Image collection and model training 
-          <br />Final 30 minutes: Model submission and testing
-        </p>
 
-        <h2 style={hS}>8. Resources and Tools</h2>
+
+        <h2 style={hS}>7. Resources and Tools</h2>
         <p>
           <strong>Development Tools:</strong> Participants will have access to a platform for model training. The platform will support image uploading, model building, and submission.
         </p>
 
 
-        <h2 style={hS}>9. Code of Conduct</h2>
+        <h2 style={hS}>8. Code of Conduct</h2>
         <p>
           <strong>Event Etiquette:</strong> Teams must maintain professionalism throughout the event. Plagiarism will lead to disqualification.
-          <br />
-          <strong>Penalties:</strong> Late submissions or failure to follow the format may result in point deductions.
+          <br /><br />
+          <strong>Penalties for misconduct:</strong> Late submissions or failure to follow the provided format may result in point deductions or disqualification. All teams must ensure that their submission is complete and on time.
+
         </p>
 
-        <h2 style={hS}>10. FAQs</h2>
+        <h2 style={hS}>9. FAQs</h2>
         <ul>
           <li><strong>What tools can we use?</strong><br/> The platform provided will support image uploading and model training.
           <br /><br/></li>
