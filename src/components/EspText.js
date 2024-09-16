@@ -69,10 +69,10 @@ function EspText() {
           Matches will happen in a knockout bracket of 32 teams. Whoever wins the match moves on to the next round of the tournament.
         </p>
 
-        <h2 style={hS}>5. Learning Resources</h2>
+        <h2 style={hS}>4. Learning Resources</h2>
         <p>Basic Skills: Participants should know to play FIFA on console preferably on the PS4 or PS5.</p>
 
-        <h2 style={hS}>6. Approach to the Esports tournament</h2>
+        <h2 style={hS}>5. Approach to the Esports tournament</h2>
         <p>
           <strong >Time Management:</strong> Allocate time for squad preparation.
           <br />
@@ -81,23 +81,18 @@ function EspText() {
 
         
 
-        <h2 style={hS}>8. Mentorship and Support</h2>
-        <p>
-          <strong>Mentor Availability:</strong> Mentors will be available during the event through dedicated help desks.
-          <br />
-          
-        </p>
+
 
         
 
-        <h2 style={hS}>10. Code of Conduct</h2>
+        <h2 style={hS}>6. Code of Conduct</h2>
         <p>
           <strong>Event Etiquette:</strong> Maintain professionalism, respect teammates, and adhere to anti-violence policies.
           <br />
           <strong>Misconduct Penalties:</strong> Time violation and teams who restart without permission from organizers will be immediately disqualified.
         </p>
 
-        <h2 style={hS}>11. FAQs</h2>
+        <h2 style={hS}>7. FAQs</h2>
         <p>
           <ul>
             <li><strong>Which mode are we playing on and can I use any team?</strong><br /> The tournament will be played through the kick off mode and not ultimate team. Yes, you can use any team including nations except for Soccer Aid FC.
