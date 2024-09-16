@@ -1,21 +1,18 @@
-import { Canvas } from '@react-three/fiber'
-import React, { Suspense } from 'react'
-import Back from '../components/back'
-import { OrbitControls } from '@react-three/drei'
-import { Scene } from '../components/creditsScene'
+import { Canvas } from "@react-three/fiber";
+import { Experience } from "../components/Experience";
 
-export default function Credit() {
+function Credit() {
   return (
-    <>
-    <Back />
-    <Canvas dpr={[1, 1.5]} camera={{ position: [0, 0, 15] }}>
-      <ambientLight />
-      <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
-      <directionalLight color="white" intensity={10} />
-      <Suspense fallback={null}>
-        <Scene />
-      </Suspense>
+
+    <Canvas style={{background: "linear-gradient(#d9afd9, #97d9e1"}}
+      camera={{
+        fov: 64,
+        position: [2.3, 1.5, 2.3],
+      }}
+    >
+      <Experience />
     </Canvas>
-    </>
-  )
+  );
 }
+
+export default Credit;
