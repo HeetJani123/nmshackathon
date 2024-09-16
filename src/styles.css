@@ -125,6 +125,8 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 170px ;
+    
 }
 
 /* Center-aligning the Events Heading */
