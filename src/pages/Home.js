@@ -44,12 +44,14 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <img src="/2024.png" alt="Hackathon Logo" />
+          <img src="/2024.png" alt="Hackathon Logo" style={{position: 'absolute', left: '40vw'}}/><br></br>
           <div>
             <ParticleEffect text={"Magnificus Concursus"} />
           </div>
         </div>
       </section>
+
+      <hr className="break" style={{borderTop: 'dotted 3px'}}></hr>
 
       {/* About Section */}
       <section className="section about-section">

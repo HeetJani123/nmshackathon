@@ -103,9 +103,8 @@ h1, h2, h3 {
 .section {
     padding: 50px 20px;
     text-align: center;
-    margin-top: 100px;
-    margin-box: 100px
 }
+
 
 .about-section h2, .events-section h2 {
     font-size: 30px;
