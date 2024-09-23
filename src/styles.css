@@ -51,7 +51,7 @@ h1, h2, h3 {
     text-align: center;
     padding: 100px 20px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-                url('b.jpg') no-repeat center center;
+                url('../public/b.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -78,10 +78,11 @@ h1, h2, h3 {
 .hero-content img {
     width: 150px;
     
+    
 }
 
 .hero-content h1 {
-    font-family: 'Bison', sans-serif;                                        
+    font-family: 'Bison', sans-serif;
     font-size: 100px;
     margin-top: 20px;
 }
@@ -118,6 +119,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 170px ;
 }
 
 /* Center-aligning the Events Heading */
@@ -166,7 +168,7 @@ h1, h2, h3 {
 .event-card:hover {
     transform: scale(1.05);
 
-    transform: translateY(-10px); 
+    transform: translateY(-10px); /* Lift effect on hover */
 }
 
 
@@ -189,7 +191,7 @@ h1, h2, h3 {
 .theme-section {
     text-align: center;
     padding: 50px;
-    background: url('a.jpg') no-repeat center center;
+    background: url('../public/a.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -240,7 +242,7 @@ h1, h2, h3 {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #111;
+    background-color: 'black';
 }
 
 /* Date Section */
@@ -251,11 +253,11 @@ h1, h2, h3 {
     flex-direction: column;
     text-align: center;
     padding: 50px 20px;
-    background-color: #131314; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin: 150px auto; 
-    max-width: 600px; 
+    background-color: #131314; /* Light background color to highlight the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 150px auto; /* Center the section horizontally */
+    max-width: 600px; /* Limit the maximum width */
 }
 
 .date-content {
@@ -263,16 +265,16 @@ h1, h2, h3 {
 }
 
 .date h2 {
-    font-family: 'Bison', sans-serif; 
-    font-size: 36px; 
+    font-family: 'Bison', sans-serif; /* Use the same font as the header */
+    font-size: 36px; /* Larger font size for emphasis */
     margin-bottom: 10px;
-    color: #ffffff; 
+    color: #ffffff; /* Darker text color for contrast */
 }
 
 .date h3 {
-    font-family: 'Poppins', sans-serif; 
-    font-size: 28px; 
-    color: #e74c3c; 
+    font-family: 'Poppins', sans-serif; /* Different font for subtitle */
+    font-size: 28px; /* Slightly smaller than the h2 */
+    color: #e74c3c; /* Accent color for highlighting the date */
     margin-top: 40px;
 }
 .countdown-timer {
@@ -280,6 +282,16 @@ h1, h2, h3 {
     font-weight: bold;
     margin-top: 10px;
     color: #ffffff;
+}
+
+.events-section:hover .event-card{
+    filter: blur(3px);
+    transition: 0.5s;
+}
+
+.events-section:hover .event-card:hover{
+    filter: none;
+    transform: 0.2s;
 }
 .faq-container {
     width: 80%;
@@ -340,3 +352,9 @@ h1, h2, h3 {
 .faq-item.active .question:hover::after {
     color: #ff6666;
 }
+
+
+  canvas {
+    width: 100vw;
+    height: 100vh;
+  }
