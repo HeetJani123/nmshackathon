@@ -340,4 +340,3 @@ h1, h2, h3 {
 .faq-item.active .question:hover::after {
     color: #ff6666;
 }
-
