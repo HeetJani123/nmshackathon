@@ -28,6 +28,7 @@ function HackText() {
     borderRadius: '5px',
     cursor: 'pointer',
     
+    
   };
 
   return (
@@ -47,7 +48,7 @@ function HackText() {
           textAlign: 'center',
         }}
       >
-        Grades 9-12
+        Gr 9-12 / Yr 10-13
       </h2>
 
       {/* Buttons to Navigate to Track 1 and Track 2 */}
@@ -61,10 +62,10 @@ function HackText() {
         }}
       >
         <a href="#track1">
-          <button style={buttonStyle}> <strong>TRACK 1</strong><br/>Grades 11-12</button>
+          <button style={buttonStyle}> <strong>TRACK 1</strong><br/>Grades 11-12 / Year 12-13<br/></button>
         </a>
         <a href="#track2">
-          <button style={buttonStyle}><strong>TRACK 2</strong><br/>Grades 9-10</button>
+          <button style={buttonStyle}><strong>TRACK 2</strong><br/>Grades 9-10 / Year 10-11</button>
         </a>
       </div>
 
@@ -79,7 +80,7 @@ function HackText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left',
+          textAlign: 'justify',
         }}
       >
         <h2 style={{
@@ -94,7 +95,7 @@ function HackText() {
           textAlign:"center",
           fontSize:"2vw"
         }}>
-          Grades 11-12
+          Gr 11-12 / Yr 12-13
 
         </p>
         <h2 style={hS}>1. Overview</h2>
@@ -105,7 +106,7 @@ function HackText() {
         <h2 style={hS}>2. Hackathon Structure</h2>
         <ul>
           <li><strong>Individual Participation:</strong> This hackathon allows only individual entries; team participation is not permitted.</li><br/>
-          <li><strong>Eligibility:</strong> The competition is open to high school students in Grades 11 and 12 who possess prior programming knowledge.</li>
+          <li><strong>Eligibility:</strong> The competition is open to high school students in Grades 11-12 / Year 12-13 who possess prior programming knowledge.</li>
         </ul>
 
 
@@ -208,7 +209,7 @@ function HackText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left',
+          textAlign: 'justify',
         }}
       >
         <h2 style={{
@@ -223,7 +224,7 @@ function HackText() {
           textAlign:"center",
           fontSize:"2vw"
         }}>
-          Grades 9-10
+          Gr 9-10 / Yr 10-11
 
         </p>
         
@@ -248,7 +249,7 @@ function HackText() {
 
         <h2 style={hD}>3. General Guidelines</h2>
         <p>
-          <strong>Eligibility:</strong> Open to high school students (Grade 9 and 10), beginner to intermediate C++ Arduino skills.
+          <strong>Eligibility:</strong> Open to high school students (Grade 9-10 / Year 10-11), beginner to intermediate C++ Arduino skills.
           <br />
           <strong>Rules & Regulations:</strong>
           <ul>
