@@ -28,6 +28,7 @@ function HackText() {
     borderRadius: '5px',
     cursor: 'pointer',
     
+    
   };
 
   return (
@@ -61,10 +62,10 @@ function HackText() {
         }}
       >
         <a href="#track1">
-          <button style={buttonStyle}> <strong>TRACK 1</strong><br/>Grades 11-12</button>
+          <button style={buttonStyle}> <strong>TRACK 1</strong><br/>Grades 11-12 / Year 12-13<br/></button>
         </a>
         <a href="#track2">
-          <button style={buttonStyle}><strong>TRACK 2</strong><br/>Grades 9-10</button>
+          <button style={buttonStyle}><strong>TRACK 2</strong><br/>Grades 9-10 / Year 10-11</button>
         </a>
       </div>
 
@@ -79,7 +80,7 @@ function HackText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left',
+          textAlign: 'justify',
         }}
       >
         <h2 style={{
@@ -208,7 +209,7 @@ function HackText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left',
+          textAlign: 'justify',
         }}
       >
         <h2 style={{
