@@ -27,7 +27,7 @@ function EspText() {
           
         }}
       >
-        Grades 9-12
+        Gr 9-12 / Yr 10-13
       </h2>
       
 
@@ -40,7 +40,7 @@ function EspText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left'
+          textAlign: 'justify'
         }}
       >
       
@@ -53,7 +53,7 @@ function EspText() {
 
         <h2 style={hS}>2. General Guidelines</h2>
         <p>
-          <strong>Eligibility:</strong> Open to high school students in Grades 9-12
+          <strong>Eligibility:</strong> Open to high school students in Grades 9-12 / Year 10-13
           <br />
           <strong>Rules & Regulations:</strong><br/> 
         </p>
