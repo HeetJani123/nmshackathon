@@ -15,7 +15,7 @@ function Scene() {
   return (
     <ScrollControls pages={13}>
       <Scroll>
-        <Particles pages={9} size={14994}/>
+        <Particles pages={13} size={14994}/>
       </Scroll>
       <Scroll html>
         <HackText />
