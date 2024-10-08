@@ -55,51 +55,47 @@ function TText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left'
+          textAlign: 'justify'
         }}
       >
         <h2 style={hS}>1. Tech4Change: Innovating for a Better Tomorrow</h2>
-        <p>
-            
-            
-            <strong>Theme:</strong> “Tech4Change” – Empowering young minds to tackle real-world challenges using advanced technology.
-            <br />
-            <strong>Objective:</strong> Students in grades 6 to 8 will use Pictoblox, HTML, Tinkercad, Minecraft, App Development, and Fusion 360 to create innovative solutions linked to SDGs, demonstrating their coding, design, and problem-solving abilities.
+        <p style={{textAlign:"justify"}}>
+            <strong>Overview:</strong> Tech4Change empowers students to address real-world problems using advanced technology. Participants will explore sustainable development goals (SDGs) and innovate through coding, designing, and prototyping with tools such as Pictoblox, HTML, Tinkercad, Minecraft, App Development, and Fusion 360.
         </p>
 
-        <h2 style={hS}>2. Team Structure</h2>
+        <h2 style={hS}>2. Event Structure</h2>
         <p>
-            <strong>Participants:</strong> Students from grades 6, 7, and 8
-            <br />
-            <strong>Team Size:</strong> 3-4 students per team.
-            <br />
-            <strong>Tools Provided:</strong> Pictoblox software, HTML editors, Tinkercad accounts, Minecraft licenses, App Inventor, and Fusion 360 software.
+            <strong>Team Composition:</strong> Teams of 3-4 students from grades 6-8.
+            <br /><br />
+            Roles may include Developer, Designer, Researcher, and Project Manager.
         </p>
 
-        <h2 style={hS}>3. Timeline</h2>
-        <p>
-            <strong>1. Introduction & Problem Statement (20 minutes):</strong>
-        </p>
+        <h2 style={hS}>3. Schedule</h2>
         <ul>
-            <li>Introduction to Tech4Change, the SDGs, and the role of technology in solving global and local problems.</li>
-            <li>Presentation of complex problem scenarios with real-world relevance.</li>
-            <li>Explanation of available tools, their features, and how they can be leveraged for different solutions.</li>
+            <li><strong>Introduction & Problem Statement:</strong> Overview of the event and the problem scenario.</li><br />
+            <li><strong>Design, Coding & Prototyping:</strong></li><br />
+            <ul>
+                <li><strong>Phase 1 (15 minutes)</strong>: Ideation and planning. Teams brainstorm, sketch, and outline their solutions.</li><br />
+                <li><strong>Phase 2 (60 minutes)</strong>: Development. Teams code, design, and prototype their solutions using selected technologies.</li>
+            </ul><br />
+            <li><strong>Presentation & Demonstration:</strong> Each team presents and demonstrates their project to the judges (7 minutes per team, including Q&A). Presentations should cover problem understanding, the solution's development process, SDG impact, and technological integration.</li>
         </ul>
 
+        <h2 style={hS}>4. General Guidelines</h2>
         <p>
-            <strong>2. Design, Coding, and Prototyping (120 minutes):</strong>
+            <strong>Eligibility:</strong> Open to students in grades 6, 7, and 8. 
+            <br /><br />
+            Programming knowledge required; beginners to intermediate levels welcome.
         </p>
-        <ul>
-            <li>Phase 1 (30 minutes): Ideation and planning - Teams brainstorm, sketch, and outline their solutions.</li>
-            <li>Phase 2 (60 minutes): Development - Teams code, design, and prototype their solutions using selected technologies.</li>
-            <li>Phase 3 (30 minutes): Testing - Teams test their prototypes, refine code, and make necessary adjustments based on initial functionality.</li>
-        </ul>
-
         <p>
-            <strong>3. Presentation & Demonstration (40 minutes):</strong> Each team presents and demonstrates their project to the judges (8 minutes per team, including Q&A). Presentations should cover problem understanding, the solution's development process, SDG impact, and technological integration.
+            <strong>Rules & Regulations:</strong>
+            <ul>
+                <li>All projects must be original.</li><br />
+                <li>Teams may use external resources, provided they are cited properly.</li>
+            </ul>
         </p>
 
-        <h2 style={hS}>4. Judging Rubric</h2>
+        <h2 style={hS}>5. Evaluation Criteria</h2>
         <table border="1" cellpadding="10" cellspacing="0" align='center'>
             <tr>
                 <th>Criteria</th>
@@ -108,45 +104,86 @@ function TText() {
             </tr>
             <tr>
                 <td>Problem Understanding</td>
-                <td>Depth of understanding of the problem and SDG alignment.</td>
+                <td>Demonstrates clear understanding of the problem and SDG relevance.</td>
                 <td>10</td>
             </tr>
             <tr>
                 <td>Creativity & Innovation</td>
-                <td>Originality and innovation in the approach and use of technology.</td>
+                <td>Displays originality in the approach and use of technology.</td>
                 <td>10</td>
             </tr>
             <tr>
                 <td>Technical Skills</td>
-                <td>Complexity and proficiency demonstrated in coding, designing, and prototyping.</td>
+                <td>Complexity and proficiency in coding, designing, and prototyping.</td>
                 <td>10</td>
             </tr>
             <tr>
                 <td>SDG Impact</td>
-                <td>Potential impact of the solution on achieving the relevant SDG.</td>
+                <td>Potential impact of the solution on relevant SDGs.</td>
                 <td>10</td>
             </tr>
             <tr>
                 <td>Teamwork</td>
-                <td>Evidence of collaboration and effective teamwork.</td>
+                <td>Collaboration and effective teamwork demonstrated.</td>
                 <td>5</td>
             </tr>
             <tr>
                 <td>Presentation</td>
-                <td>Clarity, confidence, and effectiveness of the presentation.</td>
+                <td>Clarity, confidence, and effectiveness in presentation.</td>
                 <td>5</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td></td>
+                <td><strong>50</strong></td>
             </tr>
         </table>
 
-        <h2 style={hS}>5. Prizes</h2>
+        <h2 style={hS}>6. Sample Challenges</h2>
         <p>
-            <strong>Certificates:</strong> For all participants to acknowledge their effort and participation.
-            <br />
-            <strong>Trophies/Medals:</strong> For the top 3 teams to recognize outstanding solutions.
-            <br />
-            <strong>Special Awards:</strong> For Best Use of Technology, Most Impactful SDG Solution, and Best Presentation.
+            <strong>Example Problem:</strong> Design an AI-driven app that helps reduce food wastage in school cafeterias, using Pictoblox for data collection and analysis.
+            <br /><br />
+            <strong>Solution Guide:</strong> Teams should integrate real-time data processing, a simple user interface for school staff, and AI models to predict food consumption patterns.
         </p>
 
+        <h2 style={hS}>7. Resources and Tools</h2>
+        <p>
+            <strong>Development Tools:</strong><br />
+            <ul>
+                <li>Pictoblox for AI/ML integration.</li>
+                <li>HTML editors like Brackets or Visual Studio Code.</li>
+                <li>Tinkercad for 3D modeling.</li>
+                <li>Minecraft Education for virtual SDG world-building.</li>
+                <li>Fusion 360 for engineering prototypes.</li>
+                <li>MIT App Inventor for app development.</li>
+            </ul>
+        </p>
+        <p>
+            <strong>Learning Modules:</strong><br />
+            <ul>
+                <li>Intro to AI with Pictoblox.</li>
+                <li>Web Development with HTML and CSS.</li>
+                <li>3D Design with Tinkercad.</li>
+                <li>Minecraft for Social Good.</li>
+            </ul>
+        </p>
+
+        <h2 style={hS}>8. Code of Conduct</h2>
+        <p>
+            <strong>Event Etiquette:</strong><br />
+            <ul>
+                <li>Participants should collaborate respectfully and maintain professionalism.</li>
+                <li>Strict anti-plagiarism policy; violating this will result in disqualification.</li>
+                <li>Time violations during project submission (missing the deadline) will result in penalties.</li>
+            </ul>
+        </p>
+
+        <h2 style={hS}>9. FAQs</h2>
+        <ul>
+            <li><strong>Team Formation:</strong> Teams of 3-4 students from grades 6-8.</li>
+            <li><strong>Judging Process:</strong> Judging will be based on criteria including problem understanding, creativity, technical skills, and SDG impact.</li>
+        </ul>
+          
 
         
       </div>
