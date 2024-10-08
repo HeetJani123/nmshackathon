@@ -40,7 +40,7 @@ function EspText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left'
+          textAlign: 'justify'
         }}
       >
       
