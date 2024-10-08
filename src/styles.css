@@ -258,7 +258,7 @@ h1, h2, h3 {
     margin-top: 150px;
     
     background-size: cover; 
-    max-width: 80%; 
+    max-width: 85%; 
     transition: box-shadow 0.3s ease-in-out; 
 }
 
