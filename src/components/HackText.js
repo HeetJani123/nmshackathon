@@ -203,7 +203,7 @@ function HackText() {
         id="track2"
         style={{
           position: 'absolute',
-          top: '650vh',
+          top: '700vh',
           left: '50vw',
           transform: 'translateX(-50%)',
           color: 'white',
