@@ -63,7 +63,7 @@ const Home = () => {
       <section className="section about-section">
         <h2>Magnificus Concursus is back!</h2>
         <p>
-        Get ready to experience the ultimate thrill of innovation at GNMS on Tuesday, 19th November! We’re presenting a Techno-Spectacle where Coding, Esports, Machine Learning, and Robotics converge in an extraordinary fusion. It’s more than just an event; it’s your chance to push boundaries, connect with fellow innovators, and showcase your talent.<br/> High school stars, this is your moment to shine. Let’s make it legendary!
+        Get ready to experience the ultimate thrill of innovation at GNMS on Tuesday, 19th November! We’re presenting a Techno-Spectacle where Coding, Esports and Robotics converge in an extraordinary fusion. It’s more than just an event; it’s your chance to push boundaries, connect with fellow innovators, and showcase your talent.<br/> High school stars, this is your moment to shine. Let’s make it legendary!
         </p>
       </section>   
 
@@ -112,7 +112,7 @@ const Home = () => {
         <a href="/TFC"><div className="event-card">
           <img src="/tfc.jpg" alt="TFC" />
           <div className="event-text">
-            <h3>Tech For Change</h3>
+            <h3>Tech4Change</h3>
 
           </div>
           
@@ -123,10 +123,10 @@ const Home = () => {
       </section>
       <section className="section grades-section">
         <div className="grades-container">
-          <span className="grade-text">Gr 9-12</span>
-          <span className="grade-text">Gr 9-12</span>
-          <span className="grade-text">Gr 9-10</span>
-          <span className="grade-text">Gr 6-8</span>
+          <span className="grade-text">Gr 9-12 /<br/>Yr 10-13</span>
+          <span className="grade-text">Gr 9-12 /<br/>Yr 10-13</span>
+          <span className="grade-text">Gr 9-10 /<br/>Yr 10-11</span>
+          <span className="grade-text">Gr 6-8 /<br/>Yr 7-9</span>
         </div>
       </section>
 
