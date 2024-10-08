@@ -39,7 +39,7 @@ function CText() {
           
         }}
       >
-        Grades 9-10
+        Gr 9-10 / Yr 10-11
       </h2>
 
 
@@ -57,34 +57,32 @@ function CText() {
           color: 'white',
           fontSize: '1.5vw',
           width: '60vw',
-          textAlign: 'left',
+          textAlign: 'justify',
         }}
         
       >
         <h2 style={hS}>1. Overview</h2>
-        <p>
-          This event provides a platform for young students to engage with robotics and artificial intelligence (AI), fostering collaboration, innovation, and global connectivity. 
-          Participants will showcase their ideas across two exciting rounds: <strong>TITAN</strong> and <strong>ROBOT.IO</strong>. These rounds are designed to inspire problem-solving and teamwork.
+        <p style={{textAlign:"justify"}}>
+         Get ready for an electrifying sumo robot battle! This competition offers young innovators the chance to dive into robotics and programming, blending creativity with STEM. Teams will design and build their own robots to face off in the ring, aiming to outsmart and push their opponents out. With two dynamic rounds—TITAN and ROBOT.IO—participants will showcase their engineering skills and teamwork, leading up to an epic final showdown where strategy and skill crown the ultimate champion!
+          
+
+          
         </p>
 
         <h2 style={hS}>2. Event Structure</h2>
         <p>
           <strong>Team Composition:</strong> Up to 6 members involved in programming and building the robot.
           <br />
-          <strong>Event Timings:</strong>
-          <ul>
-            <li>9:30 am - 10:30 am: Round 1 - TITAN</li>
-            <li>10:30 am - 10:45 am: Prep Time for Round 2</li>
-            <li>10:45 am - 11:45 am: Round 2 - ROBOT.IO</li>
-          </ul>
+          
+
         </p>
 
         <h2 style={hS}>3. General Guidelines</h2>
         <p>
           <strong>Eligibility:</strong> Participants must be in grades 9-10
-          <br />
+          <br /><br />
           <strong>Registration:</strong> Teams must complete the online registration form by the specified deadline and submit all required documentation, including consent forms and project descriptions.
-          <br />
+          <br /><br />
           <strong>Project Guidelines:</strong>
           <ul>
             <li>Projects must adhere to STEM-based themes provided for each round.</li>
@@ -94,22 +92,37 @@ function CText() {
         </p>
 
         <h2 style={hS}>4. Event Details</h2>
-        <p>
-          <strong>Round 1: TITAN</strong> - Teams will present their robot design to a panel of judges. Each team will have 5 minutes for the presentation and 2 minutes for Q&A. Bonus points (+5) will be awarded if the robot addresses any of the SDG goals.
+        <p style={{textAlign:"justify"}}>
+          <strong>Round 1: TITAN</strong> - This is the first round of Codalo, during which all teams will present their robot designs to a panel of judges. Each team is required to prepare a presentation outlining their robot and its key features. Teams will be allotted 5 minutes for the presentation, followed by 2 minutes for a Q&A session with the judges. Evaluation will be conducted strictly according to the provided rubric. Additionally, bonus points (+5) will be awarded to teams whose robots address one or more of the Sustainable Development Goals (SDGs).
           <br /><br />
-          <strong>Round 2: ROBOT.IO</strong> - This a robotic battle in which, there will be 2 teams, with 4 team members controlling the robot. The battle involves the robot competing with another team’s robot. Each hit on the robot from either of the sides is a point. EACH Battle table will have a judge/ timekeeper, with a criteria board to mark the points/score. The robot should be made By using Lego Spike or EV3 and should be controlled externally by a remote control ( Digital or Normal). The Scoreboard will be different from the rubrics mentioned.
+          <strong>Round 2: ROBOT.IO</strong> - The Robotic Battle Competition features teams of four members each, tasked with building robots using LEGO Spike or EV3 kits. Each match will be  for 2 minutes 30 seconds , where teams compete to score points by hitting their opponent's robot, earning one point per hit. Teams can also gain bonus points for successful defenses and creative robot designs, judged by a panel. All robots must be controlled remotely, adhering to safety protocols to prevent injury or damage. A judge will oversee each match, keeping track of time and scoring on a scoreboard that displays team names, points for hits and defenses, and overall scores.
 
         </p>
 
         <h2 style={hS}>5. Robot Specifications</h2>
-        <p>
-          <strong></strong>
-          <ul>
-            <li>Length: 30 cm</li>
-            <li>Width: 16 cm</li>
-            <li>Height: 15 cm</li>
-          </ul>
-        </p>
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+          <tr>
+              <th>Dimension</th>
+              <th>Max Value</th>
+          </tr>
+          <tr>
+              <td>Length</td>
+              <td>30 cm</td>
+          </tr>
+          <tr>
+              <td>Width</td>
+              <td>16 cm</td>
+          </tr>
+          <tr>
+              <td>Height</td>
+              <td>15 cm</td>
+          </tr>
+          <tr>
+              <td>Weight</td>
+              <td>2 kg</td>
+          </tr>
+      </table>
+
 
         <h2 style={hS}>6. Rules and Code of Conduct</h2>
         <p>
@@ -120,7 +133,8 @@ function CText() {
           <strong>Disqualification:</strong> Violations of rules, cheating, or inappropriate conduct will result in disqualification.
         </p>
 
-        <h2 style={hS}>7. Evaluation Criteria</h2>
+        <h2 style={hS}>7. Evaluation Criteria</h2><br/>
+        <h3 style={{textAlign:'center'}}><strong>ROUND 1</strong></h3><br/>
         <table border="1" cellpadding="10" cellspacing="0" align="center">
           <tr>
             <th>Criteria</th>
@@ -142,12 +156,42 @@ function CText() {
             <td>Q&A Response</td>
             <td>25%</td>
           </tr>
-        </table>
+        </table><br/><br/>
+        <h3 style={{textAlign:'center'}}><strong>ROUND 2</strong></h3><br/>
+        <table border="1" cellpadding="10" cellspacing="0" align='center'>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Points Per Category (Maximum)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Push Out</td>
+              <td>1 Point</td>
+            </tr>
+            <tr>
+              <td>Durability</td>
+              <td>5 Points</td>
+            </tr>
+            <tr>
+              <td>Number of Fouls</td>
+              <td>-5 Points</td>
+            </tr>
+            <tr>
+              <td>Sportsmanship / Core Values</td>
+              <td>5 Points</td>
+            </tr>
+          </tbody>
+        </table><br/><br/>
+        <h3><b>Rules and Criteria for Tie Breaker and Zero Points (with No Time Remaining)</b></h3>
+        <ul>
+          <li>In the event that both teams have zero points when time expires, the robot closest to the push-out line will be disqualified, and the opposing team or robot will advance to the next round.</li><br/>
+          <li>For tie breakers, an additional 30 seconds will be allocated to the battle. If no points are scored during this extra time, the robot nearest to the push-out line will be disqualified, and the opposing team or robot will proceed to the next round.</li>
+        </ul>
 
-        <h2 style={hS}>8. Intellectual Property</h2>
-        <p>
-          All intellectual property rights remain with the participants. The organizers reserve the right to use images and videos of the projects for promotional purposes.
-        </p>
+
+        
         <h2 style={hS}>Robot Reference Links</h2>
         <ul>
             <li><a href="https://youtu.be/La0KFxSwxyY?si=59XyuPeRFjhYiSDO" target="_blank">Robot Reference Video 1</a></li>
@@ -160,21 +204,21 @@ function CText() {
             <span class="faq-question"><strong>What tools can we use?</strong></span>
             <p>
                 Participants should ONLY USE LEGO EV3 OR SPIKE (or both together). They can code the controller in any program. 
-                Participants should use AI to CODE THE CONTROLLER. (Note: This question raises a concern, as building AI for the controller might not be realistic. Participants should control it manually.)
+                
             </p>
         </li>
 
         <li>
             <span class="faq-question"><strong>How will we submit our projects?</strong></span>
             <p>
-                The submission of ROUND 1 presentations can be displayed on a smart board during the event.
+                The submission of ROUND 1 presentations will be displayed on a smart board during the event.
             </p>
         </li>
 
 
 
         <li>
-            <span class="faq-question"><strong>What is the Age/Grade group for CODALO?</strong></span>
+            <span class="faq-question"><strong>What is the Grade group for CODALO?</strong></span>
             <p>
                 Grade 9, Grade 10, Year 10, Year 11.
             </p>
