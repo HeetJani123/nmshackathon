@@ -15,7 +15,7 @@ function Scene() {
   return (
     <ScrollControls pages={6}>
       <Scroll>
-        <Particles pages={4.5} size={7497}/>
+        <Particles pages={6} size={7497}/>
       </Scroll>
       <Scroll html>
         <TText />
