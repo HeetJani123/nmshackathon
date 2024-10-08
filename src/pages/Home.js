@@ -38,7 +38,7 @@ const Home = () => {
     <div>
       {/* Header */}
       <header className="header">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGgWWwPLUvhhbBcbPXIK-Y0HSYIP8yEyINQSqCAqcmImdemw/viewform?vc=0&c=0&w=1&flr=0" className="register-btn" style={{marginLeft: '80vw'}}>Register Now</a>
+        <a href="https://forms.gle/WUv9i9QQ1eR3n8rR6" className="register-btn" style={{marginLeft: '80vw'}}>Register Now</a>
       </header>
 
       {/* Hero Section */}
