@@ -38,7 +38,7 @@ const Home = () => {
     <div>
       {/* Header */}
       <header className="header">
-        <a href="https://forms.google.com" className="register-btn" style={{marginLeft: '80vw'}}>Register Now</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGgWWwPLUvhhbBcbPXIK-Y0HSYIP8yEyINQSqCAqcmImdemw/viewform?vc=0&c=0&w=1&flr=0" className="register-btn" style={{marginLeft: '80vw'}}>Register Now</a>
       </header>
 
       {/* Hero Section */}
@@ -50,15 +50,32 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+        {/* Date Section */}
+      <section className="date">
+        <div className="date-content">
+          <h2> Countdown &#187;</h2>
+          <h3>19th November</h3>
+          <div className="countdown-timer">{timeLeft}</div>
+          
+        </div>
+      </section>
       {/* About Section */}
       <section className="section about-section">
-        <h2>Why Join Us?</h2>
+        <h2>Magnificus Concursus is back!</h2>
         <p>
-        Get ready to experience the ultimate thrill of innovation at GNMS on Tuesday, 19th November! We’re presenting a Techno-Spectacle where Coding, Esports, Machine Learning, and Robotics converge in an extraordinary fusion. Imagine a day packed with intense hackathon challenges, thrilling gaming showdowns, cutting-edge AI explorations, and robotics marvels. It’s more than just an event; it’s your chance to push boundaries, connect with fellow innovators, and showcase your talent.<br/> High school stars, this is your moment to shine. Let’s make it legendary!
+        Get ready to experience the ultimate thrill of innovation at GNMS on Tuesday, 19th November! We’re presenting a Techno-Spectacle where Coding, Esports and Robotics converge in an extraordinary fusion. It’s more than just an event; it’s your chance to push boundaries, connect with fellow innovators, and showcase your talent.<br/> High school stars, this is your moment to shine. Let’s make it legendary!
         </p>
-      </section>
+      </section>   
 
+      
+      
+      {/* Theme Section */}
+            <section className="theme-section">
+              <div className="theme-content">
+                <h2>Theme</h2>
+                <h3>Innovating Tomorrow's Future</h3>
+              </div>
+            </section>
       {/* Events Section */}
       <section className="section events-section">
         <h2 className="eventsheading">Events</h2>
@@ -71,6 +88,7 @@ const Home = () => {
           </div>
         </div>
         </a>
+        
 
         <a href="/esp">
         <div className="event-card">
@@ -90,33 +108,32 @@ const Home = () => {
         </div>
         </a>
 
-        <a href="/machine"><div className="event-card">
-          <img src="/ML.jpeg" alt="Machine Learning" />
+
+        <a href="/TFC"><div className="event-card">
+          <img src="/tfc.jpg" alt="TFC" />
           <div className="event-text">
-            <h3>Machine Learning</h3>
+            <h3>Tech4Change</h3>
+
           </div>
+          
         </div>
         </a>
 
         
       </section>
-
-      {/* Theme Section */}
-      <section className="theme-section">
-        <div className="theme-content">
-          <h2>Theme</h2>
-          <h3>Innovating Tomorrow's Future</h3>
+      <section className="section grades-section">
+        <div className="grades-container">
+          <span className="grade-text">Gr 9-12 /<br/>Yr 10-13</span>
+          <span className="grade-text">Gr 9-12 /<br/>Yr 10-13</span>
+          <span className="grade-text">Gr 9-10 /<br/>Yr 10-11</span>
+          <span className="grade-text">Gr 6-8 /<br/>Yr 7-9</span>
         </div>
       </section>
 
-      {/* Date Section */}
-      <section className="date">
-        <div className="date-content">
-          <h2>DATE</h2>
-          <h3>19th November</h3>
-          <div className="countdown-timer">{timeLeft}</div>
-        </div>
-      </section>
+
+      
+
+      
 
             {/* FAQ Section */}
             <div className="faq-container">
