@@ -179,7 +179,7 @@ const Home = () => {
       {/* Venue Section */}
       <section className="venue">
         <h1>Venue</h1>
-        <p>Gems New Millennium School</p>
+        <p>GEMS New Millennium School</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.351350881146!2d55.25488967537953!3d25.12380967775823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f693bd0e85867%3A0xd2a026430b7cfc05!2sGEMS%20New%20Millennium%20School!5e0!3m2!1sen!2sae!4v1725723427009!5m2!1sen!2sae"
           width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"
