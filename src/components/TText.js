@@ -178,11 +178,7 @@ function TText() {
             </ul>
         </p>
 
-        <h2 style={hS}>9. FAQs</h2>
-        <ul>
-            <li><strong>Team Formation:</strong> Teams of 3-4 students from grades 6-8.</li>
-            <li><strong>Judging Process:</strong> Judging will be based on criteria including problem understanding, creativity, technical skills, and SDG impact.</li>
-        </ul>
+        
           
 
         
