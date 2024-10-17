@@ -72,7 +72,7 @@ function CText() {
         <h2 style={hS}>2. Event Structure</h2>
         <p>
           <strong>Team Composition:</strong> Up to 6 members involved in programming and building the robot.
-          <br />
+          <strong><br /><br />Each school can register a maximum of 1 Team.<br /></strong>
           
 
         </p>
