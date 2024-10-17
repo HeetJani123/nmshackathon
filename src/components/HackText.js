@@ -107,6 +107,7 @@ function HackText() {
         <ul>
           <li><strong>Individual Participation:</strong> This hackathon allows only individual entries; team participation is not permitted.</li><br/>
           <li><strong>Eligibility:</strong> The competition is open to high school students in Grades 11-12 / Year 12-13 who possess prior programming knowledge.</li>
+          <strong><br /><br />Each school can register a maximum of 4 participants.<br /></strong>
         </ul>
 
 
