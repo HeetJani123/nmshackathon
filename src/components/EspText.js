@@ -48,7 +48,8 @@ function EspText() {
         <h2 style={hS}>1. Esports Structure</h2>
         <ul>
           <li><strong>Track:</strong> FC24 Kick Off Mode (1v1)</li><br/>
-          <li><strong>Team Composition:</strong> Individual participation only, with no teams allowed. Participants may choose any football club for gameplay, except Soccer Aid.</li>
+          <li><strong>Team Composition:</strong> Individual participation only, with no teams allowed. Participants may choose any football club for gameplay, except Soccer Aid.</li><br/>
+          <li>The Esports FC24 Knockout Tournament will host 32 participants, with a maximum of 2 participants per school. Registration will be accepted on a first-come, first-served basis, so be sure to sign up early!</li>
         </ul>
 
         <h2 style={hS}>2. General Guidelines</h2>
