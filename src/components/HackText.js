@@ -252,6 +252,7 @@ function HackText() {
         <p>
           <strong>Eligibility:</strong> Open to high school students (Grade 9-10 / Year 10-11), beginner to intermediate C++ Arduino skills.
           <br />
+          <strong><br /><br />Each school can register a maximum of 4 participants.<br /></strong>
           <strong>Rules & Regulations:</strong>
           <ul>
             <li>Participants must use original work and are allowed to use external resources, provided they cite them properly.
