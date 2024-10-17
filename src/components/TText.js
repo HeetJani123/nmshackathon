@@ -68,6 +68,7 @@ function TText() {
             <strong>Team Composition:</strong> Teams of 3-4 students from grades 6-8.
             <br /><br />
             Roles may include Developer, Designer, Researcher, and Project Manager.
+            <strong><br /><br />Each school can register a maximum of 1 Team.<br /></strong>
         </p>
 
         <h2 style={hS}>3. Schedule</h2>
