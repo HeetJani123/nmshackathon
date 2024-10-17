@@ -136,11 +136,21 @@ const Home = () => {
       
 
             {/* FAQ Section */}
-            <div className="faq-container">
+      <div className="faq-container">
         <div className="faq-header">FAQs</div>
-
         <div className={`faq-item ${activeFAQ === 0 ? "active" : ""}`}>
           <div className="question" onClick={() => toggleFAQ(0)}>
+           What is the final date to register for the event?
+          </div>
+          <div className="answer">
+           The last date to register for the event is 7th November. Make sure to complete your registration by this date to secure your spot!
+
+
+          </div>
+        </div>
+
+        <div className={`faq-item ${activeFAQ === 1 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(1)}>
             What time are participants expected to arrive at the venue?
           </div>
           <div className="answer">
@@ -148,8 +158,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className={`faq-item ${activeFAQ === 1 ? "active" : ""}`}>
-          <div className="question" onClick={() => toggleFAQ(1)}>
+        <div className={`faq-item ${activeFAQ === 2 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(2)}>
           Can a student participate in more than one event?
           </div>
           <div className="answer">
@@ -157,8 +167,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className={`faq-item ${activeFAQ === 2 ? "active" : ""}`}>
-          <div className="question" onClick={() => toggleFAQ(2)}>
+        <div className={`faq-item ${activeFAQ === 3 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(3)}>
             Is there a fee to participate in the hackathon, and what are the prizes for winners?
           </div>
           <div className="answer">
@@ -166,8 +176,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className={`faq-item ${activeFAQ === 3 ? "active" : ""}`}>
-          <div className="question" onClick={() => toggleFAQ(3)}>
+        <div className={`faq-item ${activeFAQ === 4 ? "active" : ""}`}>
+          <div className="question" onClick={() => toggleFAQ(4)}>
            Will devices be provided for the participants?
           </div>
           <div className="answer">
@@ -175,6 +185,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
 
       {/* Venue Section */}
       <section className="venue">
