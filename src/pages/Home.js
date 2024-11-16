@@ -185,6 +185,17 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* Speaker Section */}
+      <section className="speaker">
+        <h1 style={{ fontSize:"30px", marginTop:"0px"}}>Keynote Speaker &#8250; </h1>
+        <div className="speaker">
+          <img src="/pic.jpg" alt="Dahua" style={{ width: "200px",borderRadius: '20px', margin:"40px" }} />
+          <h1>Mr. Mohamed Emad Eldin</h1><br/>
+          <h3>Head of IBM Public Cloud Business</h3>
+          <h4>( Middle East, Africa and Turkey )</h4>
+        </div>
+        </section>
+      
 
 
       {/* Venue Section */}
