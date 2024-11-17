@@ -32,19 +32,44 @@ h1, h2, h3 {
     font-size: 40px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-evenly; /* Adjust spacing between buttons */
+    align-items: center; 
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0); 
+}
+
 .register-btn {
-    padding: 10px 20px;
-    background-color: #f00;
-    color: #fff;
-    border-radius: 10px;
+    padding: 12px 25px;
+    background-color: rgba(0, 255, 255, 0.2); /* Cyan transparent background */
+    color: #fff; /* White text */
+    border: 2px solid cyan; /* Cyan border */
+    border-radius: 4px; /* Slightly rounded corners */
     text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
 }
 
 .register-btn:hover {
-    background-color: #d00;
+    background-color: rgba(0, 255, 255, 0.4); /* Brighter cyan transparent background */
+    color: #000; /* Black text for better contrast */
+    border-color: #fff; /* Change border to white on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
 }
+
+.register-btn:active {
+    background-color: rgba(0, 255, 255, 0.6); /* Even less transparent for active state */
+    transform: translateY(0);
+}
+
 
 /* Hero Section */
 .hero-section {
@@ -219,7 +244,7 @@ h1, h2, h3 {
 }
 
 /* Venue Section */
-.venue, .sponsors, .speaker {
+.venue, .sponsors,.speaker {
     text-align: center;
     padding: 50px;
 }
