@@ -38,7 +38,37 @@ const Home = () => {
     <div>
       {/* Header */}
       <header className="header">
-        <a href="https://forms.gle/WUv9i9QQ1eR3n8rR6" className="register-btn" style={{marginLeft: '80vw'}}>Register Now</a>
+        <a
+          href="#"
+          className="register-btn"
+          onClick={() => {
+            const password = prompt("Enter the password to access Track 1 Questions:");
+            if (password === "password") {
+              window.location.href = "https://forms.gle/WUv9i9QQ1eR3n8rR6";
+            } else {
+              alert("Incorrect password!");
+            }
+          }}
+        >
+          Track 1 Questions
+        </a>
+
+        <a href="https://forms.gle/WUv9i9QQ1eR3n8rR6" className="register-btn" >Track 1 Submission</a>
+        <a
+          href="#"
+          className="register-btn"
+          onClick={() => {
+            const password = prompt("Enter the password to access Track 2 Questions:");
+            if (password === "password") {
+              window.location.href = "https://forms.gle/anotherLink";
+            } else {
+              alert("Incorrect password!");
+            }
+          }}
+        >
+          Track 2 Questions
+        </a>
+        <a href="https://forms.gle/WUv9i9QQ1eR3n8rR6" className="register-btn" >Track 2 Submission</a>
       </header>
 
       {/* Hero Section */}
@@ -143,7 +173,7 @@ const Home = () => {
            What is the final date to register for the event?
           </div>
           <div className="answer">
-           The last date to register for the event is 7th November. Make sure to complete your registration by this date to secure your spot!
+           The last date to register for the the event is 7th November. Make sure to complete your registration by this date to secure your spot!
 
 
           </div>
@@ -195,13 +225,11 @@ const Home = () => {
           <h4>( Middle East, Africa and Turkey )</h4>
         </div>
         </section>
-      
-
 
       {/* Venue Section */}
       <section className="venue">
         <h1>Venue</h1>
-        <p>GEMS New Millennium School</p>
+        <p>Gems New Millennium School</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.351350881146!2d55.25488967537953!3d25.12380967775823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f693bd0e85867%3A0xd2a026430b7cfc05!2sGEMS%20New%20Millennium%20School!5e0!3m2!1sen!2sae!4v1725723427009!5m2!1sen!2sae"
           width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"
