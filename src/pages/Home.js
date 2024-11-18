@@ -60,7 +60,7 @@ const Home = () => {
           onClick={() => {
             const password = prompt("Enter the password to access Track 2 Questions:");
             if (password === "magnificus2024") {
-              window.location.href = "https://forms.gle/anotherLink";
+              window.location.href = "https://drive.google.com/file/d/1nkTwKVA9P5Vk92DyGx8JTokl3t-nK5w1/view?usp=sharing";
             } else {
               alert("Incorrect password!");
             }
