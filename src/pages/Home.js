@@ -43,8 +43,8 @@ const Home = () => {
           className="register-btn"
           onClick={() => {
             const password = prompt("Enter the password to access Track 1 Questions:");
-            if (password === "password") {
-              window.location.href = "https://forms.gle/WUv9i9QQ1eR3n8rR6";
+            if (password === "magnificus2024") {
+              window.location.href = "https://drive.google.com/file/d/1WjiMxZXAY3wVLbp4t33p_-Nc6RPoUcts/view?usp=sharing";
             } else {
               alert("Incorrect password!");
             }
@@ -53,13 +53,13 @@ const Home = () => {
           Track 1 Questions
         </a>
 
-        <a href="https://forms.gle/WUv9i9QQ1eR3n8rR6" className="register-btn" >Track 1 Submission</a>
+        <a href="https://forms.gle/rHjsp8PMKw7Zki877" className="register-btn" >Track 1 Submission</a>
         <a
           href="#"
           className="register-btn"
           onClick={() => {
             const password = prompt("Enter the password to access Track 2 Questions:");
-            if (password === "password") {
+            if (password === "magnificus2024") {
               window.location.href = "https://forms.gle/anotherLink";
             } else {
               alert("Incorrect password!");
@@ -68,7 +68,7 @@ const Home = () => {
         >
           Track 2 Questions
         </a>
-        <a href="https://forms.gle/WUv9i9QQ1eR3n8rR6" className="register-btn" >Track 2 Submission</a>
+        <a href="https://shorturl.at/Im0AH" className="register-btn" >Track 2 Submission</a>
       </header>
 
       {/* Hero Section */}
